@@ -368,73 +368,83 @@ brandCopy key =
             CopyText "About the project"
 
         InfoOneSlug ->
-            CopyText "about"
+            CopyText ""
 
         InfoOneIcon ->
-            CopyText "question-circle-o"
+            CopyText ""
 
         InfoOneContent ->
-            CopyText "In 2017, The Haven Wolverhampton, worked with Neontribe and women who had been through domestic abuse. We co-designed a web app to encourage other women in that situation to seek support and advice. We want to find out if the structure of that app could be used by different organisations. We believe that reassuring people that their fears and challenges are shared could help them take early steps on a journey of change such as contacting a support service."
+            CopyText "Our trained helpline staff will listen to what has happened to you and offer you advice explain your choices on what you can do next. If you decide you want to complain, you can choose to use a self-help pack or to be contacted by our specialist advocates. They are experienced, trained workers who are there to help and support you through every step of your complaint about an NHS service. They can work with you by phone, by email or by meeting face to face. They will ensure your voice is heard."
 
         InfoTwoName ->
-            CopyText "Bite size information"
+            CopyText "What can I expect?"
 
         InfoTwoSlug ->
-            CopyText "bite-size-info"
+            CopyText ""
 
         InfoTwoIcon ->
-            CopyText "info-circle"
+            CopyText ""
 
         InfoTwoContent ->
-            CopyText "We include bite size information relating to a small number of fears and barriers that are likely to be stopping people from taking the next step. Keeping the language simple we aim to be open and honest, with a reassuring tone. We resist the temptation to provide all the information people might need. Our goal is to offer just enough to help people reach out to support services. Other websites have excellent longer content."
+            CopySection
+            [ CopyText "We don’t promise to get you everything you want. We will always be clear with you about this. Complaining is not the same as taking legal action and you won’t get a financial reward. But we can work towards goals that could make a big difference to how you feel. Think about if you might like:"
+            , CopyList
+                [ CopyText "an apology so you know that other people accept that sometimes things do go wrong"
+                    , CopyText "an explanation so that you understand why something happened"
+                    , CopyText "a change to a service so that something never happens again"
+                    , CopyText "action to put things right so that you and others have better treatment in the future"
+                    , CopyText "answers to questions so that you understand why a decision was made"
+                    ]
+            , CopyText "Our team will help you work out what you can expect."
+            ]
 
         InfoThreeName ->
-            CopyText "Visual Storytelling"
+            CopyText "Will I be harming the NHS?"
 
         InfoThreeSlug ->
-            CopyText "visual-storytelling"
+            CopyText ""
 
         InfoThreeIcon ->
-            CopyText "pencil"
+            CopyText ""
 
         InfoThreeContent ->
-            CopyText "Many organisations struggle with the same problem with stories. We know stories can be powerful, we want to use them for many reasons. Unfortunately people don’t always like to spend time reading them online. We believe that visual storytelling can change this. Contemplating Action has a budget for artists, to test whether this 4 image story format can encourage more people to read them."
+            CopyText "No. Not at all. It’s easy to feel that you don’t want to add to the NHS’s problems and feel bad for complaining. But the NHS wants people to report problems. They have a saying ‘complaints are a gift to the NHS’ because they show how it can get better. Even though the complaints process can seem hard, it’s worth it to make a difference. Our team can talk to you about how your complaint could help improve services."
 
         InfoFourName ->
-            CopyText "What is the survey?"
+            CopyText "Am I just making a fuss?"
 
         InfoFourSlug ->
-            CopyText "survey"
+            CopyText ""
 
         InfoFourIcon ->
-            CopyText "check-square-o"
+            CopyText ""
 
         InfoFourContent ->
-            CopyText "We would like you to take our survey. We want to understand whether staff in organisations who work most closely with people seeking support think this approach could work. We’re interested in your instincts as well as any evidence you might share. It will help us decide where to take the project next."
+            CopyText "Thinking about complaining for the first time can be really hard. You might be worried that your problem isn’t really important enough. You may feel embarrassed and not want to bother anyone. You might be blaming yourself for what went wrong. Lots of people feel like this. But all problems are important. If you or someone you love have been treated in a way that worries you then it is important enough. Contact us to talk through your situation. We can help you find a path that is right for you."
 
         InfoFiveName ->
-            CopyText "Can my organisation try this?"
+            CopyText "Will I be treated differently if I complain?"
 
         InfoFiveSlug ->
-            CopyText "try-this"
+            CopyText ""
 
         InfoFiveIcon ->
-            CopyText "group"
+            CopyText ""
 
         InfoFiveContent ->
-            CopyText "We’re actively looking for partner charities interested in experimenting with this visual storytelling format. So if you have a helpline, webchat, messaging service or even a face to face service, we could work together on whether an app could help people connect to those services. We have small amounts of funding to support charities getting involved. Please show your interest by taking the survey."
+            CopyText "Deciding to take a complaint forward can be scary, especially if you are still receiving treatment. Lots of people worry that complaining will make things worse. The NHS is not allowed to act like that. There are standards that they must follow when they deal with complaints. So if you decide to make a complaint the NHS should still treat you fairly, politely and with respect. Your care and treatment should never be affected as a result. Our team can help you remind the NHS of these responsibilities."
 
         InfoSixName ->
-            CopyText "Who is involved in this project?"
+            CopyText "Is complaining a lot of work?"
 
         InfoSixSlug ->
-            CopyText "who-is-involved"
+            CopyText ""
 
         InfoSixIcon ->
-            CopyText "involved"
+            CopyText ""
 
         InfoSixContent ->
-            CopyText "This is a partnership between CAST - a charity driving social change through digital technology - and digital development agency Neontribe. It is one of a number of projects aimed at supporting civic and social organisations to grow confident in using digital tools to achieve their charitable objectives. It is possible thanks to The Haven, Wolverhampton sharing technology developed for and with the people they work with."
+            CopyText "Some complaints are simple and some are complicated. Sometimes the process can take a long time. But you are in control. If it becomes too much, you can drop a complaint at any time. You can also turn to our team for support at any time. They can help you make decisions, they can write additional letters to try and speed things up and they can just listen if you are finding it stressful. Many people decide that even though the process is long, the feeling they get when they receive an apology or an explanation is worth it."
 
         StoriesTitleH2 ->
             CopyText "Stories"
