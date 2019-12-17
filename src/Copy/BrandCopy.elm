@@ -365,7 +365,7 @@ brandCopy key =
                 ]
 
         InfoOneName ->
-            CopyText "About the project"
+            CopyText "What happens when you contact us?  "
 
         InfoOneSlug ->
             CopyText ""
