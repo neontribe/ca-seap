@@ -282,37 +282,37 @@ brandCopy key =
             CopyText "Our Supporters"
 
         SupportersP1 ->
-            CopyText "This page, available in the landing page footer, allows organisations to thank their partners."
+            CopyText "We would like to thank our funders, whose generosity has made this website possible."
 
         SupportersP2 ->
-            CopyText "We are grateful to all the partners that have made this project possible."
+            CopyText "This web app was funded by CAST - Centre for Acceleration of Social Technology - as part of a project called Contemplating Action which is seeking to find out whether visual stories can help people overcome their fears and barriers to getting support. The project has produced an app that could be used by different charities to encourage people to reach out and get help by reassuring them that they are not alone."
 
         CastLogoAlt ->
-            CopyText "CAST"
+            CopyText "Centre for accelerating social technology logo"
 
         ComicReliefLogoAlt ->
-            CopyText "Comic Relief"
+            CopyText "Comic Relief logo"
 
         DepartmentForCultureLogoAlt ->
-            CopyText "Department for Culture Media & Sport"
+            CopyText "Department for Culture Media & Sport logo"
 
         BigLotteryLogoAlt ->
-            CopyText "Big Lottery Fund"
+            CopyText "Big Lottery logo"
 
         SupportersP3 ->
-            CopyText "Contemplating Action is a partnership with CAST - Centre for Acceleration of Social Technology."
-
-        SupportersP4 ->
             CopyText "The initial You Matter app which inspired Contemplating Action was part of Tech vs Abuse. This grant was funded through a joint funding initiative between the Tampon Tax Fund, a partnership between HM Government and Comic Relief, and the Big Lottery Fund."
 
+        SupportersP4 ->
+            CopyText "The original You Matter web app was developed by Neontribe and The Haven, together with women who have been victims of domestic abuse. The Haven is a Wolverhampton based charity which supports women and dependent children who are vulnerable to domestic violence, homelessness and abuse."
+
         NeontribeLogoAlt ->
-            CopyText "Neontribe"
+            CopyText "Neontribe logo"
 
         HavenLogoAlt ->
-            CopyText "The Haven Wolverhampton"
+            CopyText "The Haven Wolverhampton logo"
 
         SupportersP5 ->
-            CopyText "This website has been developed by Neontribe and The Haven, together with women who have been victims of domestic abuse. The Haven is a Wolverhampton based charity which supports women and dependent children who are vulnerable to domestic violence, homelessness and abuse."
+            CopyText "This web app was built by Neontribe and seAp. This website has been developed by Neontribe and seAp, together with people who have used seAp’s health care complaints service."
 
         FooterSupportersText ->
             CopyText "Find out about our"
