@@ -50,126 +50,126 @@ brandCopy : Key -> Copy
 brandCopy key =
     case key of
         SiteTitle ->
-            CopyText "Contemplating Action"
+            CopyText "✨"
 
         AppTitle ->
-            CopyText "Contemplating Action"
+            CopyText "✨"
 
         CallToActionOne ->
             CallToAction
                 { action = DesktopInteractive
-                , category = "survey"
-                , icon = "check-square-o"
-                , href = "https://Contemplating-action.typeform.com/to/zUOTYA"
+                , category = "✨"
+                , icon = "✨"
+                , href = "✨"
                 , displayHref = ""
-                , promptLong = "Take part in our survey"
-                , promptShort = "Survey"
+                , promptLong = "✨"
+                , promptShort = "✨"
                 }
 
         CallToActionTwo ->
             CallToAction
                 { action = DesktopInteractive
                 , category = "page"
-                , icon = "question-circle-o"
-                , href = "/stories"
-                , displayHref = "Find Out More"
-                , promptLong = "Find Out More"
-                , promptShort = "Find Out More"
+                , icon = "✨"
+                , href = "#"
+                , displayHref = "✨"
+                , promptLong = "✨"
+                , promptShort = "✨"
                 }
 
         CallToActionThree ->
             CallToAction
                 { action = DesktopInteractive
-                , category = "email"
-                , icon = "envelope"
-                , href = "mailto:hello@contemplatingaction.org.uk"
-                , displayHref = "hello@contemplatingaction.org.uk"
-                , promptLong = "Email us"
-                , promptShort = "Email"
+                , category = "✨"
+                , icon = "✨"
+                , href = "✨"
+                , displayHref = "✨"
+                , promptLong = "✨"
+                , promptShort = "✨"
                 }
 
         ContentLinkLong ->
-            CopyText "Find out more"
+            CopyText "✨"
 
         ContentLinkMedium ->
-            CopyText "Find Out More"
+            CopyText "✨"
 
         ContentLinkShort ->
-            CopyText "Find Out More"
+            CopyText "✨"
 
         IconStories ->
-            CopyText "question-circle-o"
+            CopyText "✨"
 
         CookieDescription ->
-            CopyText "Can we use cookies to help improve this site? We'd like to use Google Analytics cookies to collect and report information on how people use the site. Allowing us to use cookies does not allow us to identify you. For more information please see our 'Privacy Policy' page."
+            CopyText "✨"
 
         CookieAccept ->
-            CopyText "Accept"
+            CopyText "✨"
 
         CookieDecline ->
-            CopyText "Decline"
+            CopyText "✨"
 
         --Home Page
         HomeReadAboutH2 ->
-            CopyText "A project exploring how to encourage people to seek support. Can visual stories help change lives?"
+            CopyText "✨"
 
         HomeBannerImageAlt ->
-            CopyText "A description of banner image."
+            CopyText "✨"
 
         HomeTalkToSomeoneH2 ->
-            CopyText "Breaking down fears and barriers."
+            CopyText "✨"
 
         HomeP1 ->
             CopyWithLink
-                { textBefore = "This is a demonstration version of a web app we believe could be used by different organisations to encourage people to use a helpline or web chat or text service. We believe that reassuring people that their fears and challenges are shared will help them take early steps on a journey of change. In a live app the information in this section would be additional information about the organisation and it’s support services for people who did not follow the direct link to the stories. Read in depth about this project"
-                , linkText = "here."
-                , destination = "https://neontribe.co.uk/contemplating-action"
+                { textBefore = "✨"
+                , linkText = "✨"
+                , destination = "#"
                 , textAfter = ""
                 }
 
         HomeP2 ->
-            CopyText "This space is used to give a reminder about what to do in a crisis or high risk situation when the app is not the right support."
+            CopyText "✨"
 
         -- Privacy Page
         PrivacyTitleH2 ->
-            CopyText "Contemplating Action Privacy Policy and Cookies"
+            CopyText "✨"
 
         PrivacyIntroP ->
-            CopyText "This policy relates to www.contemplatingaction.org.uk (“the Site”) which is owned by Neontribe ltd and related activity "
+            CopyText "✨ "
 
         PrivacyCompanyAddress ->
             CopyList
-                [ CopyText "Neontribe ltd trading as Neontribe"
-                , CopyText "Registered as a limited company in England & Wales"
-                , CopyText "Business registration: 06165574"
-                , CopyText "Registered office: 106 Lincoln St. Norwich, Norfolk, NR2 3LB."
+                [ CopyText "✨"
+                , CopyText "✨"
+                , CopyText "✨"
+                , CopyText "✨"
                 ]
 
         PrivacySectionOneH3 ->
-            CopyText "What information is collected?"
+            CopyText "✨"
 
         PrivacySectionOneP ->
-            CopyText "We collect the following information from people who use this website:"
+            CopyText "✨"
 
         PrivacySectionOneList ->
             CopyList
-                [ CopyText "Email addresses of people who communicate with us via email"
-                , CopyText "Information volunteered by people in the course of using of the website (predominantly survey responses)"
-                , CopyText "Analytics and tracking data about people’s site usage"
+                [ CopyText "✨"
+                , CopyText "✨"
+                , CopyText "✨"
                 ]
 
         PrivacySectionTwoH3 ->
-            CopyText "How is the information used?"
+            CopyText "✨"
 
         PrivacySectionTwoP ->
-            CopyText "Neontribe uses the information you provide to:"
+            CopyText "✨"
 
         PrivacySectionTwoList ->
             CopyList
-                [ CopyText "Improve the usability of the Site"
-                , CopyText "Help design future projects "
-                , CopyText "Contribute to research about third sector use of digital"
-                , CopyText "Send you any information you have requested relating to the Contemplating Action project"
+                [ CopyText "✨"
+                , CopyText "✨ "
+                , CopyText "✨"
+                , CopyText "✨"
                 ]
 
         PrivacySectionThreeH3 ->
@@ -177,43 +177,43 @@ brandCopy key =
 
         PrivacySectionThreeP1 ->
             CopyText
-                "If you chose to give us contact details we will only contact you in relation to these four things. You can also tell us if you no longer wish to receive information from Neontribe by replying to any email from us with the subject line Unsubscribe, or sending a message to info@neontribe.co.uk requesting to unsubscribe."
+                "✨"
 
         PrivacySectionThreeP2 ->
-            CopyText "Information that is identifiable as relating to you (i.e. it has not been edited to make it anonymous) is not shared with or sold to other organizations for commercial purposes, other than under the following circumstances:"
+            CopyText "✨"
 
         PrivacySectionThreeList ->
             CopyList
-                [ CopyText "If it is necessary to share information in order to investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person, violations of Terms of Service, or as otherwise required by law."
-                , CopyText "If we transfer information about you if Neontribe is acquired by or merged with another organisation, other than an organisation established by us and controlled by us."
-                , CopyText "You have explicitly chosen to have us share the information with CAST - the centre for acceleration of social technology whilst giving us the information - in which case it will be freely shared with them."
+                [ CopyText "✨"
+                , CopyText "✨"
+                , CopyText "✨"
                 ]
 
         PrivacySectionFourH3 ->
-            CopyText "Where is the information stored?"
+            CopyText "✨"
 
         PrivacySectionFourP1 ->
             CopyText ""
 
         PrivacySectionFourList ->
             CopyList
-                [ CopyText "On our computers"
+                [ CopyText "✨"
                 , CopyWithLink
-                    { textBefore = "On our survey provider Typeform’s servers. For more information see"
-                    , linkText = "Typeform's privacy policy"
-                    , destination = "https://www.typeform.com/help/gdpr-rights-for-respondents/"
+                    { textBefore = "✨"
+                    , linkText = "✨"
+                    , destination = "#"
                     , textAfter = "."
                     }
                 , CopyWithLink
-                    { textBefore = "In Google Analytics. For more information see"
-                    , linkText = "Google's privacy policy"
-                    , destination = "https://support.google.com/analytics/answer/6004245"
+                    { textBefore = "✨"
+                    , linkText = "✨"
+                    , destination = "✨"
                     , textAfter = "."
                     }
                 , CopyWithLink
-                    { textBefore = "By our partner CAST on their servers if you have explicitly expressed the desire to share your information with them whilst using our site. For more information see"
-                    , linkText = "CAST's privacy policy"
-                    , destination = "https://www.castsoftware.com/privacy"
+                    { textBefore = "✨"
+                    , linkText = "✨"
+                    , destination = "✨"
                     , textAfter = "."
                     }
                 ]
@@ -222,28 +222,28 @@ brandCopy key =
             CopyText ""
 
         PrivacySectionFiveH3 ->
-            CopyText "Your rights"
+            CopyText "✨"
 
         PrivacySectionFiveP ->
             CopyWithLink
-                { textBefore = "We guarantee to meet your rights in compliance with GDPR. Find out about those rights from the"
-                , linkText = "ICO GDPR indvidual rights guide"
-                , destination = "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/"
-                , textAfter = ". To exercise any of your rights, please contact us at hello@contemplatingaction.org.uk"
+                { textBefore = "✨"
+                , linkText = "✨"
+                , destination = "#"
+                , textAfter = ". ✨"
                 }
 
         PrivacySectionFiveList ->
             CopyText ""
 
         PrivacySectionSixH3 ->
-            CopyText "Use of cookies"
+            CopyText "✨"
 
         PrivacySectionSixP1 ->
             CopyText
-                "Cookies are pieces of information that a website transfers to your hard drive. Most web browsers automatically accept cookies, but if you prefer, you can change your browser to prevent that and will still be able to use the site. "
+                "✨ "
 
         PrivacySectionSixP2 ->
-            CopyText "Contemplating Action uses cookies to:"
+            CopyText "✨"
 
         PrivacySectionSixP3 ->
             CopyText ""
@@ -253,17 +253,17 @@ brandCopy key =
 
         PrivacySectionSixList ->
             CopyList
-                [ CopyText "Monitor the number of visitors to our website"
-                , CopyText "Monitor how users use our website, i.e. which pages they have accessed"
-                , CopyText "To help improve our website"
-                , CopyText "For more data on Cookies visit www.aboutcookies.org. In addition to detailing extensive information on cookies this site also provides explanations on how to disable cookies on your computer."
+                [ CopyText "✨"
+                , CopyText "✨"
+                , CopyText "✨"
+                , CopyText "✨"
                 ]
 
         PrivacySectionSevenH3 ->
-            CopyText "Your acceptance of these terms"
+            CopyText "✨"
 
         PrivacySectionSevenP ->
-            CopyText "By using this site, you consent to the collection and use of this information by Neontribe and to our privacy policy. Please send any questions, concerns or comments you have about these policies to info@neontribe.co.uk "
+            CopyText "✨"
 
         PrivacySectionSevenList ->
             CopyText ""
@@ -279,93 +279,93 @@ brandCopy key =
 
         -- Supporters Page
         SupportersTitleH2 ->
-            CopyText "Our Supporters"
+            CopyText "✨"
 
         SupportersP1 ->
-            CopyText "This page, available in the landing page footer, allows organisations to thank their partners."
+            CopyText "✨"
 
         SupportersP2 ->
-            CopyText "We are grateful to all the partners that have made this project possible."
+            CopyText "✨"
 
         CastLogoAlt ->
-            CopyText "CAST"
+            CopyText "✨"
 
         ComicReliefLogoAlt ->
-            CopyText "Comic Relief"
+            CopyText "✨"
 
         DepartmentForCultureLogoAlt ->
-            CopyText "Department for Culture Media & Sport"
+            CopyText "✨"
 
         BigLotteryLogoAlt ->
-            CopyText "Big Lottery Fund"
+            CopyText "✨"
 
         SupportersP3 ->
-            CopyText "Contemplating Action is a partnership with CAST - Centre for Acceleration of Social Technology."
+            CopyText "✨"
 
         SupportersP4 ->
-            CopyText "The initial You Matter app which inspired Contemplating Action was part of Tech vs Abuse. This grant was funded through a joint funding initiative between the Tampon Tax Fund, a partnership between HM Government and Comic Relief, and the Big Lottery Fund."
+            CopyText "✨"
 
         NeontribeLogoAlt ->
-            CopyText "Neontribe"
+            CopyText "✨"
 
         HavenLogoAlt ->
-            CopyText "The Haven Wolverhampton"
+            CopyText "✨"
 
         SupportersP5 ->
-            CopyText "This website has been developed by Neontribe and The Haven, together with women who have been victims of domestic abuse. The Haven is a Wolverhampton based charity which supports women and dependent children who are vulnerable to domestic violence, homelessness and abuse."
+            CopyText "✨"
 
         FooterSupportersText ->
-            CopyText "Find out about our"
+            CopyText "✨"
 
         FooterSupportersLink ->
-            CopyText "supporters"
+            CopyText "✨"
 
         FooterPrivacyText ->
-            CopyText "Read our"
+            CopyText "✨"
 
         FooterPrivacyLink ->
-            CopyText "privacy policy"
+            CopyText "✨"
 
         FooterRegisteredText ->
             CopyText ""
 
         FooterCopyrightLink ->
             CopyWithLink
-                { textBefore = "© 2019 - "
-                , linkText = "Neontribe"
-                , destination = "https://www.neontribe.co.uk/"
+                { textBefore = "© ✨ - "
+                , linkText = "✨"
+                , destination = "#"
                 , textAfter = ""
                 }
 
         InfoTitleH2 ->
-            CopyText "Information to help you"
+            CopyText "✨"
 
         InfoLikeMoreInfoLink ->
-            CopyText "I'd like some more information"
+            CopyText "✨"
 
         InfoLikeOtherInfoLink ->
-            CopyText "I'd like some other information"
+            CopyText "✨"
 
         InfoOtherInfoLink ->
-            CopyText "Other information to help you"
+            CopyText "✨"
 
         InfoNotFoundName ->
-            CopyText "Not found"
+            CopyText "✨"
 
         InfoNotFoundSlug ->
-            CopyText "not-found"
+            CopyText "✨"
 
         InfoNotFoundIcon ->
-            CopyText "question"
+            CopyText "✨"
 
         InfoNotFoundContent ->
             CopySection
-                [ CopyText "We can't find a page with that title, sorry."
-                , CopyText "Please use the 'Other information to help you' page to see if we have the topic you are looking for."
+                [ CopyText "✨"
+                , CopyText "✨"
                 ]
 
         InfoOneName ->
-            CopyText "What happens when you contact us?  "
+            CopyText "What happens when you contact us?"
 
         InfoOneSlug ->
             CopyText ""
@@ -447,126 +447,118 @@ brandCopy key =
             CopyText "Some complaints are simple and some are complicated. Sometimes the process can take a long time. But you are in control. If it becomes too much, you can drop a complaint at any time. You can also turn to our team for support at any time. They can help you make decisions, they can write additional letters to try and speed things up and they can just listen if you are finding it stressful. Many people decide that even though the process is long, the feeling they get when they receive an apology or an explanation is worth it."
 
         StoriesTitleH2 ->
-            CopyText "Stories"
+            CopyText "✨"
 
         StoriesTeaserMoreLink title ->
-            CopyText ("See " ++ title ++ "'s Story")
+            CopyText ("✨ " ++ title ++ "✨")
 
         StoryCardH3 cardId ->
-            CopyText ("Part " ++ String.fromInt cardId ++ " of 4")
+            CopyText ("✨ " ++ String.fromInt cardId ++ " ✨")
 
         StoryCardStartJourneyPrompt ->
-            CopyText "Every story is different. Let us help you discover yours."
+            CopyText "✨"
 
         StoryNotFoundTitle ->
-            CopyText "Not found Title"
+            CopyText "✨"
 
         StoryNotFoundTeaser ->
-            CopyText "Not found teaser"
+            CopyText "✨"
 
         StoryNotFoundQuote ->
-            CopyText "Not Found Quote"
+            CopyText "✨"
 
         StoryNotFoundImageAlt ->
-            CopyText "Not found Image"
+            CopyText "✨"
 
         StoryNotFoundMessage ->
-            CopyText "Not found Message"
+            CopyText "✨"
 
         StoryOneTitle ->
-            CopyText "Our Project"
+            CopyText "✨"
 
         StoryOneTeaser ->
-            CopyText "This shows you how we believe shaping stories from real people can work so that they help people feel ready to take action"
+            CopyText "✨"
 
         StoryOneTeaserImageAlt ->
-            CopyText "A man kneeling on the floor of a dark room with his head in his hands"
+            CopyText "✨"
 
         StoryOne1Quote ->
-            CopyText "The story starts with some background. It gives us key pieces of information that make this person’s story clear and relatable. It tends to deal with facts about the situation they were in rather than their feelings. It is always a situation that clearly needed to change."
+            CopyText "✨"
 
         StoryOne1ImageAlt ->
-            CopyText "A man is kneeling on the floor of a dark room with his head in his hands"
+            CopyText "✨"
 
         StoryOne1Message ->
             CopyText ""
 
         StoryOne2Quote ->
-            CopyText "Next the story moves on a little. It does one of two things. Either it tells us about a specific incident that began a drive to change things, or it explores the person’s fears and other things that were holding them back. This section focuses on emotions and helps us connect with the person’s story."
+            CopyText "✨"
 
         StoryOne2ImageAlt ->
-            CopyText "The man looks up a long staircase with a locked door at the top"
+            CopyText "✨"
 
         StoryOne2Message ->
-            CopyText "This bar is used to give a little extra insight into how the person was feeling."
+            CopyText "✨"
 
         StoryOne3Quote ->
-            CopyText "Here the story starts to change for the better. The person becomes able to take a positive step and get some support. The story tells us a little about what happened, how they managed to take the step and how they felt."
+            CopyText "✨"
 
         StoryOne3ImageAlt ->
-            CopyText "The man starts climbing the stairs to reach a hand holding out a key."
+            CopyText "✨"
 
         StoryOne3Message ->
             CopyText ""
 
         StoryOne4Quote ->
-            CopyText "The final section of the story is about hope. It shows that taking a chance can be a positive choice. However it doesn’t suggest that the person’s life is now perfect. It is designed to encourage others to believe they could make a move to a more hopeful place too. It takes care not to sound out of reach."
+            CopyText "✨"
 
         StoryOne4ImageAlt ->
-            CopyText "The door is open and the lock is on the floor. The man is outside in a bright and sunny environment holding onto the key."
+            CopyText "✨"
 
         StoryOne4Message ->
-            CopyText "sometimes the story highlights a worry that remains, and how the person is coping with it"
+            CopyText "✨"
 
         StoryTwoTitle ->
-            CopyText "The Haven"
+            CopyText "✨"
 
         StoryTwoTeaser ->
-            CopyText "This is one of the six stories created for The Haven’s app. The story uses Two’s words but the names have been changed, and the story has been shaped to help others."
+            CopyText "✨"
 
         StoryTwoTeaserImageAlt ->
-            CopyText "A pregnant woman wrapped in chains"
+            CopyText "✨"
 
         StoryTwo1Quote ->
-            CopyText """I was born in Senegal and had lived in Spain as well as the UK and I couldn’t
-            speak English. My husband became abusive after I got pregnant with our first
-            child. For years I suffered so many different things."""
+            CopyText """✨"""
 
         StoryTwo1ImageAlt ->
-            CopyText "A pregnant woman wrapped in chains"
+            CopyText "✨"
 
         StoryTwo1Message ->
             CopyText ""
 
         StoryTwo2Quote ->
-            CopyText """I wanted to leave, but my husband told me without him I would be sent back to
-            Africa. I was completely dependent on my husband, I did not see any way out of
-            my situation."""
+            CopyText """✨"""
 
         StoryTwo2ImageAlt ->
-            CopyText "A pregnant woman chained to her husband"
+            CopyText "✨"
 
         StoryTwo2Message ->
-            CopyText "I did not know my rights in the UK and had no money but soon I discovered I had choices."
+            CopyText "✨"
 
         StoryTwo3Quote ->
-            CopyText """One day I broke down at my health care class. My teacher was so supportive. She
-            told me about The Haven and they found me a support worker who spoke Spanish. They
-            talked to social services for me and found me an immigration solicitor."""
+            CopyText """✨"""
 
         StoryTwo3ImageAlt ->
-            CopyText "A woman crying at a desk"
+            CopyText "✨"
 
         StoryTwo3Message ->
             CopyText ""
 
         StoryTwo4Quote ->
-            CopyText """I have a house now, with my children, and away from my abusive husband. My
-            solicitor is helping me with immigration documents and divorce papers. For the
-            first time in a long time I can sleep and look forward to the future."""
+            CopyText """✨"""
 
         StoryTwo4ImageAlt ->
-            CopyText "A smiling woman with two children"
+            CopyText "✨"
 
         StoryTwo4Message ->
             CopyText ""
