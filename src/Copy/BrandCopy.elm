@@ -447,88 +447,88 @@ brandCopy key =
             CopyText "Some complaints are simple and some are complicated. Sometimes the process can take a long time. But you are in control. If it becomes too much, you can drop a complaint at any time. You can also turn to our team for support at any time. They can help you make decisions, they can write additional letters to try and speed things up and they can just listen if you are finding it stressful. Many people decide that even though the process is long, the feeling they get when they receive an apology or an explanation is worth it."
 
         StoriesTitleH2 ->
-            CopyText "✨"
+            CopyText "Stories"
 
         StoriesTeaserMoreLink title ->
-            CopyText ("✨ " ++ title ++ "✨")
+            CopyText ("Read " ++ title ++ "'s Story")
 
         StoryCardH3 cardId ->
-            CopyText ("✨ " ++ String.fromInt cardId ++ " ✨")
+            CopyText ("Part " ++ String.fromInt cardId ++ " of 4")
 
         StoryCardStartJourneyPrompt ->
-            CopyText "✨"
+            CopyText "Everyone's story is different, but you will find someone who can help you. Start your journey now."
 
         StoryNotFoundTitle ->
-            CopyText "✨"
+            CopyText "Coming soon"
 
         StoryNotFoundTeaser ->
-            CopyText "✨"
+            CopyText "We're working on it"
 
         StoryNotFoundQuote ->
-            CopyText "✨"
+            CopyText "Story coming soon."
 
         StoryNotFoundImageAlt ->
-            CopyText "✨"
+            CopyText "Placeholder image"
 
         StoryNotFoundMessage ->
-            CopyText "✨"
+            CopyText "Check back soon"
 
         StoryOneTitle ->
-            CopyText "✨"
+            CopyText "Diane"
 
         StoryOneTeaser ->
-            CopyText "✨"
+            CopyText "Diane felt her complaint about her husband’s treatment was badly handled, but a weight was lifted when she found an advocate."
 
         StoryOneTeaserImageAlt ->
             CopyText "✨"
 
         StoryOne1Quote ->
-            CopyText "✨"
+            CopyText "When my husband was first diagnosed with cancer, the treatment was amazing, he was in chemotherapy within 36hours. But later, an A&E visit went very badly when protocols and procedures were ignored. We put in a complaint to the Health Care Trust, and one sentence in their reply made us so angry."
 
         StoryOne1ImageAlt ->
             CopyText "✨"
 
         StoryOne1Message ->
-            CopyText ""
+            CopyText "They said my husband’s treatment had been appropriate but we knew the protocol for neutropenic sepsis."
 
         StoryOne2Quote ->
-            CopyText "✨"
+            CopyText "The leaflet about an advocate came with the reply. I had spoken to my husband. “What do you reckon, it’s a charity, we don’t have to but shall we give it a go?”. There were lots of forms but it was all very smooth. It was actually the week of my husband’s funeral when the worker called to arrange the first meeting, but I thought “I really do want to get on with this”."
 
         StoryOne2ImageAlt ->
             CopyText "✨"
 
         StoryOne2Message ->
-            CopyText "✨"
+            CopyText "You feel like you can’t say anything, it's the medical profession, they will close ranks against you."
 
         StoryOne3Quote ->
-            CopyText "✨"
+            CopyText "I had this real sense of relief that I was going to see somebody and when I met Susan, our advocate, it was so reassuring. She handed me a box of tissues and put together a letter in my name. Later, before the response meeting we met and she went through it with me, asking me which key things I wanted to remember to tell them."
 
         StoryOne3ImageAlt ->
             CopyText "✨"
 
         StoryOne3Message ->
-            CopyText ""
+            CopyText "You do worry that you might end up with a marker against your name."
 
         StoryOne4Quote ->
-            CopyText "✨"
+            CopyText "When we got to the response meeting it was amicable. They made big changes to the neutropenic sepsis process. Nurses can administer the intravenous drugs now, not just doctors and there are posters all over the hospital. I just felt like an enormous weight had been lifted - that’s all we’d wanted, them to admit that it wasn’t right."
 
         StoryOne4ImageAlt ->
             CopyText "✨"
 
         StoryOne4Message ->
-            CopyText "✨"
+            CopyText "I met someone who said “it’s thanks to you and your husband that I’m alive”."
 
         StoryTwoTitle ->
-            CopyText "✨"
+            CopyText "Lara"
 
         StoryTwoTeaser ->
-            CopyText "✨"
+            CopyText "Lots of younger people don’t make formal complaints. Lara’s story shows what could happen if they did."
 
         StoryTwoTeaserImageAlt ->
             CopyText "✨"
 
         StoryTwo1Quote ->
-            CopyText """✨"""
+            CopyText """I hate hospitals and I hate going to the doctor. I’ve had depression since I was a teenager and it took forever to get any treatment. So I didn’t want to go to A&E. But I had horrendous stomach cramps and I was throwing up, and I couldn’t get my temperature to go down and late one night, my friends convinced me to go."""
 
         StoryTwo1ImageAlt ->
             CopyText "✨"
@@ -537,16 +537,16 @@ brandCopy key =
             CopyText ""
 
         StoryTwo2Quote ->
-            CopyText """✨"""
+            CopyText """I knew I’d have to wait. But I didn’t expect the first nurse who saw me to lecture me about drinking and tell me “I’d probably got an STD”. I got angry and told her she shouldn’t talk shit about someone she didn’t know like that and then she cussed at me and left. Eventually I got seen by a Doctor and it turned out I had appendicitis."""
 
         StoryTwo2ImageAlt ->
             CopyText "✨"
 
         StoryTwo2Message ->
-            CopyText "✨"
+            CopyText "I forgot about the first bit of the visit for a while."
 
         StoryTwo3Quote ->
-            CopyText """✨"""
+            CopyText """When I was recovering I started chatting online about how awful it was, and asking if people thought it was because I was female, young and black that I got treated like that. I wasn’t going to do anything formal. But my friend Alisha’s mum worked in a different A&E and basically Alisha spent ages explaining why I should try calling the advocacy and complaints service."""
 
         StoryTwo3ImageAlt ->
             CopyText "✨"
@@ -555,25 +555,25 @@ brandCopy key =
             CopyText ""
 
         StoryTwo4Quote ->
-            CopyText """✨"""
+            CopyText """I had to phone up for forms to fill in. And I was pretty stressed about getting them right - so I was glad Alisha knew enough to help me. It took ages to hear anything back, but when I did they told me they were adding new training on diversity and talking about health with young people. That made me feel good."""
 
         StoryTwo4ImageAlt ->
             CopyText "✨"
 
         StoryTwo4Message ->
-            CopyText ""
+            CopyText "It felt like my effort might make a difference for other people."
 
         StoryThreeTitle ->
-            CopyText "✨"
+            CopyText "Amy"
 
         StoryThreeTeaser ->
-            CopyText "✨"
+            CopyText "Amy was angry with how she was treated whilst in psychiatric care but didn’t know what would make it better until she worked with an advocate."
 
         StoryThreeTeaserImageAlt ->
             CopyText "✨"
 
         StoryThree1Quote ->
-            CopyText """✨"""
+            CopyText """I was very angry about what happened when I was in psychiatric care. You don’t need to know the details, but no one should ever be treated like that. And I knew about advocates, because there was one in the hospital, and she gave me information about who could help me when I left."""
 
         StoryThree1ImageAlt ->
             CopyText "✨"
@@ -582,25 +582,25 @@ brandCopy key =
             CopyText ""
 
         StoryThree2Quote ->
-            CopyText """✨"""
+            CopyText """I didn’t know what I wanted. I didn’t know what would make it better. It was easy for me to think “what’s the point, nobody listens, nothing changes.'' But I didn’t want to let it go, so I phoned up and filled in the forms. And when I finally met Sam, my advocate, I quickly knew she was the right person to help me."""
 
         StoryThree2ImageAlt ->
             CopyText "✨"
 
         StoryThree2Message ->
-            CopyText "✨"
+            CopyText "I’m not shy about complaining but I needed help navigating the system."
 
         StoryThree3Quote ->
-            CopyText """✨"""
+            CopyText """I never once felt I was wasting her time. She listened. She believed me. And she did all the things she said she would. She kept redrafting a letter until I was 100% happy with it. I was sure that if I’d just written to the trust I would have just been dismissed. This way, I knew at the very least it was being logged."""
 
         StoryThree3ImageAlt ->
             CopyText "✨"
 
         StoryThree3Message ->
-            CopyText ""
+            CopyText "Advocates seem to have power."
 
         StoryThree4Quote ->
-            CopyText """✨"""
+            CopyText """In the end, after months, Sam managed to get a meeting set up. I got an apology. And it turns out that’s what I’d wanted, an apology. Being believed. I didn’t know that was what I wanted at the beginning, but it felt good to get it. It meant I could move on."""
 
         StoryThree4ImageAlt ->
             CopyText "✨"
