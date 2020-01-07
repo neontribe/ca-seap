@@ -338,103 +338,113 @@ brandCopy key =
                 }
 
         InfoTitleH2 ->
-            CopyText "✨"
+            CopyText "Information to help you"
 
         InfoLikeMoreInfoLink ->
-            CopyText "✨"
+            CopyText "I'd like some more information"
 
         InfoLikeOtherInfoLink ->
-            CopyText "✨"
+            CopyText "I'd like some other information"
 
         InfoOtherInfoLink ->
-            CopyText "✨"
+            CopyText "Other information to help you"
 
         InfoNotFoundName ->
-            CopyText "✨"
+            CopyText "Not found"
 
         InfoNotFoundSlug ->
-            CopyText "✨"
+            CopyText "not-found"
 
         InfoNotFoundIcon ->
-            CopyText "✨"
+            CopyText "question"
 
         InfoNotFoundContent ->
             CopySection
-                [ CopyText "✨"
-                , CopyText "✨"
+                [ CopyText "We can't find a page with that title, sorry."
+                , CopyText "Please use the 'Other information to help you' page to see if we have the topic you are looking for."
                 ]
 
         InfoOneName ->
-            CopyText "✨"
+            CopyText "What happens when you contact us?"
 
         InfoOneSlug ->
-            CopyText "✨"
+            CopyText "what-happens-when-you-contact-us"
 
         InfoOneIcon ->
             CopyText "✨"
 
         InfoOneContent ->
-            CopyText "✨"
+            CopyText "Our trained helpline staff will listen to what has happened to you and offer you advice explain your choices on what you can do next. If you decide you want to complain, you can choose to use a self-help pack or to be contacted by our specialist advocates. They are experienced, trained workers who are there to help and support you through every step of your complaint about an NHS service. They can work with you by phone, by email or by meeting face to face. They will ensure your voice is heard."
 
         InfoTwoName ->
-            CopyText "✨"
+            CopyText "What can I expect?"
 
         InfoTwoSlug ->
-            CopyText "✨"
+            CopyText "what-can-i-expect"
 
         InfoTwoIcon ->
             CopyText "✨"
 
         InfoTwoContent ->
-            CopyText "✨"
+            CopySection
+            [ CopyText "We don’t promise to get you everything you want. We will always be clear with you about this. Complaining is not the same as taking legal action and you won’t get a financial reward. But we can work towards goals that could make a big difference to how you feel. Think about if you might like:"
+            , CopyList
+                [ CopyText "an apology so you know that other people accept that sometimes things do go wrong"
+                    , CopyText "an explanation so that you understand why something happened"
+                    , CopyText "a change to a service so that something never happens again"
+                    , CopyText "action to put things right so that you and others have better treatment in the future"
+                    , CopyText "answers to questions so that you understand why a decision was made"
+                    ]
+            , CopyText "Our team will help you work out what you can expect."
+            ]
 
         InfoThreeName ->
-            CopyText "✨"
+            CopyText "Will I be harming the NHS?"
 
         InfoThreeSlug ->
-            CopyText "✨"
+            CopyText "am-i-harming-nhs"
 
         InfoThreeIcon ->
             CopyText "✨"
 
         InfoThreeContent ->
-            CopyText "✨"
+            CopyText "No. Not at all. It’s easy to feel that you don’t want to add to the NHS’s problems and feel bad for complaining. But the NHS wants people to report problems. They have a saying ‘complaints are a gift to the NHS’ because they show how it can get better. Even though the complaints process can seem hard, it’s worth it to make a difference. Our team can talk to you about how your complaint could help improve services."
 
         InfoFourName ->
-            CopyText "✨"
+            CopyText "Am I just making a fuss?"
 
         InfoFourSlug ->
-            CopyText "✨"
+            CopyText "am-i-making-a-fuss"
 
         InfoFourIcon ->
             CopyText "✨"
 
         InfoFourContent ->
-            CopyText "✨"
+            CopyText "Thinking about complaining for the first time can be really hard. You might be worried that your problem isn’t really important enough. You may feel embarrassed and not want to bother anyone. You might be blaming yourself for what went wrong. Lots of people feel like this. But all problems are important. If you or someone you love have been treated in a way that worries you then it is important enough. Contact us to talk through your situation. We can help you find a path that is right for you."
 
         InfoFiveName ->
-            CopyText "✨"
+            CopyText "Will I be treated differently if I complain?"
 
         InfoFiveSlug ->
-            CopyText "✨"
+            CopyText "will-i-be-treated-differently"
 
         InfoFiveIcon ->
             CopyText "✨"
 
         InfoFiveContent ->
-            CopyText "✨"
+            CopyText "Deciding to take a complaint forward can be scary, especially if you are still receiving treatment. Lots of people worry that complaining will make things worse. The NHS is not allowed to act like that. There are standards that they must follow when they deal with complaints. So if you decide to make a complaint the NHS should still treat you fairly, politely and with respect. Your care and treatment should never be affected as a result. Our team can help you remind the NHS of these responsibilities."
 
         InfoSixName ->
-            CopyText "✨"
+            CopyText "Is complaining a lot of work?"
 
         InfoSixSlug ->
-            CopyText "✨"
+            CopyText "what-does-complaining-entail"
 
         InfoSixIcon ->
             CopyText "✨"
 
         InfoSixContent ->
-            CopyText "✨"
+            CopyText "Some complaints are simple and some are complicated. Sometimes the process can take a long time. But you are in control. If it becomes too much, you can drop a complaint at any time. You can also turn to our team for support at any time. They can help you make decisions, they can write additional letters to try and speed things up and they can just listen if you are finding it stressful. Many people decide that even though the process is long, the feeling they get when they receive an apology or an explanation is worth it."
 
         StoriesTitleH2 ->
             CopyText "✨"
