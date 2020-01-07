@@ -288,7 +288,7 @@ brandCopy key =
             CopyText "This web app was funded by CAST - Centre for Acceleration of Social Technology - as part of a project called Contemplating Action which is seeking to find out whether visual stories can help people overcome their fears and barriers to getting support. The project has produced an app that could be used by different charities to encourage people to reach out and get help by reassuring them that they are not alone."
 
         CastLogoAlt ->
-            CopyText "Centre for accelerating social technology logo"
+            CopyText "Centre for Acceleration of Social Technology logo"
 
         ComicReliefLogoAlt ->
             CopyText "Comic Relief logo"
@@ -312,7 +312,7 @@ brandCopy key =
             CopyText "The Haven Wolverhampton logo"
 
         SupportersP5 ->
-            CopyText "This web app was built by Neontribe and seAp. This website has been developed by Neontribe and seAp, together with people who have used seAp’s health care complaints service."
+            CopyText "This web app was built by Neontribe and seAp, together with people who have used seAp’s health care complaints service."
 
         FooterSupportersText ->
             CopyText "Find out about our"
