@@ -315,16 +315,16 @@ brandCopy key =
             CopyText "This web app was built by Neontribe and seAp, together with people who have used seAp’s health care complaints service."
 
         FooterSupportersText ->
-            CopyText "✨"
+            CopyText "Find out about our"
 
         FooterSupportersLink ->
-            CopyText "✨"
+            CopyText "supporters"
 
         FooterPrivacyText ->
-            CopyText "✨"
+            CopyText "Read our"
 
         FooterPrivacyLink ->
-            CopyText "✨"
+            CopyText "privacy policy"
 
         FooterRegisteredText ->
             CopyText ""
