@@ -50,10 +50,10 @@ brandCopy : Key -> Copy
 brandCopy key =
     case key of
         SiteTitle ->
-            CopyText "✨"
+            CopyText "NHS Complaints Matter"
 
         AppTitle ->
-            CopyText "✨"
+            CopyText "NHS Complaints Matter"
 
         CallToActionOne ->
             CallToAction
@@ -62,8 +62,8 @@ brandCopy key =
                 , icon = "✨"
                 , href = "✨"
                 , displayHref = ""
-                , promptLong = "✨"
-                , promptShort = "✨"
+                , promptLong = "Call 0330 440 9000"
+                , promptShort = "Call"
                 }
 
         CallToActionTwo ->
@@ -73,8 +73,8 @@ brandCopy key =
                 , icon = "✨"
                 , href = "#"
                 , displayHref = "✨"
-                , promptLong = "✨"
-                , promptShort = "✨"
+                , promptLong = "Stories"
+                , promptShort = "Stories"
                 }
 
         CallToActionThree ->
@@ -84,51 +84,49 @@ brandCopy key =
                 , icon = "✨"
                 , href = "✨"
                 , displayHref = "✨"
-                , promptLong = "✨"
-                , promptShort = "✨"
+                , promptLong = "email info@seap.org.uk"
+                , promptShort = "email"
                 }
 
         ContentLinkLong ->
-            CopyText "✨"
+            CopyText "Show me the stories"
 
         ContentLinkMedium ->
-            CopyText "✨"
+            CopyText "Show me the stories"
 
         ContentLinkShort ->
-            CopyText "✨"
+            CopyText "Stories"
 
         IconStories ->
             CopyText "✨"
 
         CookieDescription ->
-            CopyText "✨"
+            CopyText "Can we use cookies to help improve this site? We'd like to use Google Analytics cookies to collect and report information on how people use the site. Allowing us to use cookies does not allow us to identify you. For more information please see our 'Privacy Policy' page."
 
         CookieAccept ->
-            CopyText "✨"
+            CopyText "Accept"
 
         CookieDecline ->
-            CopyText "✨"
+            CopyText "Decline"
 
         --Home Page
         HomeReadAboutH2 ->
-            CopyText "✨"
+            CopyText "When you are ill you need to be treated well. Find out how we can help you  speak up when things go wrong."
 
         HomeBannerImageAlt ->
-            CopyText "✨"
+            CopyText ""
 
         HomeTalkToSomeoneH2 ->
-            CopyText "✨"
+            CopyText "Your rights, your voice, your choice  "
 
         HomeP1 ->
-            CopyWithLink
-                { textBefore = "✨"
-                , linkText = "✨"
-                , destination = "#"
-                , textAfter = ""
-                }
+            CopySection
+            [ CopyText "When something goes wrong and you feel like the NHS has let you down it can be hard. You have a right to complain and the NHS needs your feedback in order to improve their service.  Call seAp for free information about getting your voice heard and other organisations that can help."
+            , CopyText "If there are parts of your complaint you cannot do for yourself, you can ask for one of the seAp team to be your advocate. They will listen to you, support you to speak for yourself, and help you to make choices. They can also write letters for you, help you in complaint meetings, and talk to other people for you if necessary."
+            ]
 
         HomeP2 ->
-            CopyText "✨"
+            CopyText "The seAp service is completely confidential, free and independent of the NHS.  It can only be used to complain about NHS services, we can’t help with complaints about private health care or social care provided by the local council."
 
         -- Privacy Page
         PrivacyTitleH2 ->
@@ -327,7 +325,7 @@ brandCopy key =
             CopyText "privacy policy"
 
         FooterRegisteredText ->
-            CopyText ""
+            CopyText "Reg. Charity No. 1080679"
 
         FooterCopyrightLink ->
             CopyWithLink
