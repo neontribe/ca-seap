@@ -483,7 +483,7 @@ brandCopy key =
             CopyText "✨"
 
         StoryOne1Quote ->
-            CopyText "When my husband was first diagnosed with cancer, the treatment was amazing, he was in chemotherapy within 36hours. But later, an A&E visit went very badly when protocols and procedures were ignored. We put in a complaint to the Health Care Trust, and one sentence in their reply made us so angry."
+            CopyText "When my husband was first diagnosed with cancer, the treatment was amazing, he was in chemotherapy within 36 hours. But later, an A&E visit went very badly when protocols and procedures were ignored. We put in a complaint to the Health Care Trust, and one sentence in their reply made us so angry."
 
         StoryOne1ImageAlt ->
             CopyText "✨"
@@ -582,7 +582,7 @@ brandCopy key =
             CopyText ""
 
         StoryThree2Quote ->
-            CopyText """I didn’t know what I wanted. I didn’t know what would make it better. It was easy for me to think “what’s the point, nobody listens, nothing changes.'' But I didn’t want to let it go, so I phoned up and filled in the forms. And when I finally met Sam, my advocate, I quickly knew she was the right person to help me."""
+            CopyText """I didn’t know what I wanted. I didn’t know what would make it better. It was easy for me to think “what’s the point, nobody listens, nothing changes“. But I didn’t want to let it go, so I phoned up and filled in the forms. And when I finally met Sam, my advocate, I quickly knew she was the right person to help me."""
 
         StoryThree2ImageAlt ->
             CopyText "✨"
