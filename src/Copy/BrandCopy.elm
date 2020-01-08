@@ -58,10 +58,10 @@ brandCopy key =
         CallToActionOne ->
             CallToAction
                 { action = DesktopInteractive
-                , category = "✨"
+                , category = "phone"
                 , icon = "✨"
-                , href = "✨"
-                , displayHref = ""
+                , href = "tel:03304409000"
+                , displayHref = "0330" ++ "\u{00A0}" ++ "440" ++ "\u{00A0}" ++ "9000"
                 , promptLong = "Call 0330 440 9000"
                 , promptShort = "Call"
                 }
@@ -71,8 +71,8 @@ brandCopy key =
                 { action = DesktopInteractive
                 , category = "page"
                 , icon = "✨"
-                , href = "#"
-                , displayHref = "✨"
+                , href = "#/stories"
+                , displayHref = "Stories"
                 , promptLong = "Stories"
                 , promptShort = "Stories"
                 }
@@ -80,10 +80,10 @@ brandCopy key =
         CallToActionThree ->
             CallToAction
                 { action = DesktopInteractive
-                , category = "✨"
+                , category = "email"
                 , icon = "✨"
-                , href = "✨"
-                , displayHref = "✨"
+                , href = "mailto:info@seap.org.uk"
+                , displayHref = "info@seap.org.uk"
                 , promptLong = "email info@seap.org.uk"
                 , promptShort = "email"
                 }
@@ -117,11 +117,11 @@ brandCopy key =
             CopyText ""
 
         HomeTalkToSomeoneH2 ->
-            CopyText "Your rights, your voice, your choice  "
+            CopyText "Your rights, your voice, your choice"
 
         HomeP1 ->
             CopySection
-            [ CopyText "When something goes wrong and you feel like the NHS has let you down it can be hard. You have a right to complain and the NHS needs your feedback in order to improve their service.  Call seAp for free information about getting your voice heard and other organisations that can help."
+            [ CopyText "When something goes wrong and you feel like the NHS has let you down it can be hard. You have a right to complain and the NHS needs your feedback in order to improve their service. Call seAp for free information about getting your voice heard and other organisations that can help."
             , CopyText "If there are parts of your complaint you cannot do for yourself, you can ask for one of the seAp team to be your advocate. They will listen to you, support you to speak for yourself, and help you to make choices. They can also write letters for you, help you in complaint meetings, and talk to other people for you if necessary."
             ]
 
