@@ -111,7 +111,7 @@ brandCopy key =
 
         --Home Page
         HomeReadAboutH2 ->
-            CopyText "When you are ill you need to be treated well. Find out how we can help you  speak up when things go wrong."
+            CopyText "When you are ill you need to be treated well. Find out how we can help you speak up when things go wrong."
 
         HomeBannerImageAlt ->
             CopyText ""
@@ -126,7 +126,7 @@ brandCopy key =
             ]
 
         HomeP2 ->
-            CopyText "The seAp service is completely confidential, free and independent of the NHS.  It can only be used to complain about NHS services, we can’t help with complaints about private health care or social care provided by the local council."
+            CopyText "The seAp service is completely confidential, free and independent of the NHS. It can only be used to complain about NHS services, we can’t help with complaints about private health care or social care provided by the local council."
 
         -- Privacy Page
         PrivacyTitleH2 ->
