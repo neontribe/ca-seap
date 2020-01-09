@@ -1,7 +1,26 @@
+/* ------------------------------
+
+  seAP Fonts
+
+------------------------------ */
+
+@font-face {
+font-family: 'Frutiger LT Light';
+font-style: normal;
+font-weight: normal;
+src: url('./fonts/Frutiger LT 45 Light.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Frutiger LT Bold';
+font-style: normal;
+font-weight: normal;
+src: url('./fonts/Frutiger LT 65 Bold.woff') format('woff');
+}
 
 /* ------------------------------
 
-   Variables
+   New seAP Variables
 
 ------------------------------ */
 
@@ -40,7 +59,7 @@ $focus-colour: $lime-green;
 
 :root {
   font-size: 100%;
-  font-family: 'Poppins', 'Arial';
+  font-family: 'Frutiger LT Light', 'Arial', sans-serif;
   line-height: 1.5;
 }
 
@@ -51,7 +70,7 @@ body {
 }
 
 p {
-  font-family: 'Poppins', 'Arial';
+  font-family: 'Frutiger LT Light', 'Arial', sans-serif;
 }
 
 h1,
@@ -60,7 +79,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', 'Arial';
+  font-family: 'Frutiger LT Bold', 'Arial', sans-serif;
 }
 
 .company-info {
@@ -129,7 +148,7 @@ h5 {
 ------------------------------ */
 
 .link {
-  font-family: 'Poppins', 'Arial';
+  font-family: 'Frutiger LT Light', 'Arial', sans-serif;
   color: inherit;
   border-bottom: 2px solid currentColor;
   text-decoration: none;
@@ -215,8 +234,12 @@ h5 {
 
 .button[href*="tel"] {
   align-self: flex-start;
-  background-color: $white;
+  background-color: transparent;
   color: $text-colour;
+}
+
+.button-group .button[href*="stories"] {
+  margin-top: 2rem;
 }
 
 .button[href*="tel"] span:last-of-type {
@@ -263,7 +286,6 @@ h5 {
    Navigation
 
 ------------------------------ */
-
 
 .nav-bar {
   background-color: $primary-colour;
@@ -350,6 +372,7 @@ h5 {
 ------------------------------ */
 
 .section--footer {
+  background-color: $white;
   color: $secondary-colour;
 }
 
