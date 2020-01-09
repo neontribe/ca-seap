@@ -236,10 +236,7 @@ h5 {
   align-self: flex-start;
   background-color: transparent;
   color: $text-colour;
-}
-
-.button-group .button[href*="stories"] {
-  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .button[href*="tel"] span:last-of-type {
@@ -274,6 +271,7 @@ h5 {
 
 .section--story-end .button[href*="tel"] {
   background-color: transparent;
+  margin-bottom: 0;
 }
 
 .section--story-end .button[href*="tel"] span:last-of-type {
