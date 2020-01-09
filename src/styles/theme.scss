@@ -8,19 +8,19 @@
 font-family: 'Frutiger LT Light';
 font-style: normal;
 font-weight: normal;
-src: url('./fonts/Frutiger LT 45 Light.woff') format('woff');
+src: url('./fonts/frutiger-lt-45-light.woff') format('woff');
 }
 
 @font-face {
 font-family: 'Frutiger LT Bold';
 font-style: normal;
 font-weight: normal;
-src: url('./fonts/Frutiger LT 65 Bold.woff') format('woff');
+src: url('./fonts/frutiger-lt-65-bold.woff') format('woff');
 }
 
 /* ------------------------------
 
-   New seAP Variables
+   New seAp Variables
 
 ------------------------------ */
 
@@ -370,7 +370,7 @@ h5 {
 ------------------------------ */
 
 .section--footer {
-  background-color: $white;
+  background-color: $grey-light;
   color: $secondary-colour;
 }
 
