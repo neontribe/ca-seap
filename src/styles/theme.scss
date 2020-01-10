@@ -25,7 +25,7 @@ src: url('./fonts/frutiger-lt-65-bold.woff') format('woff');
 ------------------------------ */
 
 $pink: #EC008C;
-$pink-light: #fde5f3;
+$pink-light: rgba(253, 229, 243, 0.5);
 $grey: #767676;
 $grey-light: #f1f1f1;
 $yellow: #FAA81C;
@@ -42,6 +42,7 @@ $shadow: rgba(89, 97, 116, 0.4);
 $primary-colour: $pink;
 $secondary-colour: $grey;
 $tertiary-colour: $pink-light;
+$section-background: $grey-light;
 $text-colour: $black-pure;
 $interaction-colour: $grey;
 $icon-background: $yellow;
@@ -256,7 +257,7 @@ h5 {
 ------------------------------ */
 
 .section--darker {
-  background-color: $grey-light;
+  background-color: $section-background;
 }
 
 .section--lighter {
@@ -376,7 +377,7 @@ h5 {
 ------------------------------ */
 
 .section--footer {
-  background-color: $grey-light;
+  background-color: $section-background;
   color: $secondary-colour;
 }
 
@@ -393,7 +394,7 @@ h5 {
 }
 
 .card--link:hover {
-  background-color: $grey-light;
+  background-color: $section-background;
   cursor: pointer;
 
   .link {
@@ -464,7 +465,7 @@ h5 {
 ------------------------------ */
 
 .story--message {
-  background-color: $grey-light;
+  background-color: $section-background;
   color: $text-colour;
   font-size: 1rem;
 }
