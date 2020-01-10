@@ -1,6 +1,6 @@
 /* ------------------------------
 
-  seAP Fonts
+  seAp Fonts
 
 ------------------------------ */
 
@@ -25,14 +25,13 @@ src: url('./fonts/frutiger-lt-65-bold.woff') format('woff');
 ------------------------------ */
 
 $pink: #EC008C;
-$pink-light: #f14cae;
+$pink-light: #fde5f3;
 $grey: #767676;
+$grey-light: #f1f1f1;
 $yellow: #FAA81C;
+$yellow-light: #fef6e8;
 $black: #3c3c3b;
 $white: #f5f5f5;
-$grey-light: #d5d5d5;
-$grey-light-purple: #e4e1e7;
-$lime-green: #07c103;
 
 // Utility variables
 $white-pure: #ffffff;
@@ -42,10 +41,11 @@ $shadow: rgba(89, 97, 116, 0.4);
 // Theme colours
 $primary-colour: $pink;
 $secondary-colour: $grey;
+$tertiary-colour: $pink-light;
 $text-colour: $black-pure;
 $interaction-colour: $grey;
 $icon-background: $yellow;
-$focus-colour: $lime-green;
+$focus-colour: $pink-light;
 
 /* ------------------------------
 
@@ -65,7 +65,7 @@ $focus-colour: $lime-green;
 
 body {
   color: $text-colour;
-  background-color: $white-pure;
+  background-color: transparent;
   font-size: 1.1rem;
 }
 
@@ -160,7 +160,7 @@ h5 {
 }
 
 .link--plain {
-  color: $text-colour;
+  color: $primary-colour;
   border-bottom-color: transparent;
   font-weight: normal;
   text-decoration: underline;
@@ -208,7 +208,7 @@ h5 {
 }
 
 .button {
-  color: $white;
+  color: $white-pure;
   background-color: $interaction-colour;
   font-size: 1.125rem;
   font-weight: bold;
@@ -218,29 +218,35 @@ h5 {
 .button:active,
 .button:focus,
 .button:hover {
-  background-color: $pink-light;
+  background-color: $tertiary-colour;
+  color: $secondary-colour;
+}
+
+.button--cookie {
+  background-color: $primary-colour;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: $secondary-colour;
+    color: $white-pure;
+  }
 }
 
 .button--alternate {
-  color: $white;
+  color: $white-pure;
   background-color: $interaction-colour;
 }
 
 .button--alternate:active,
 .button--alternate:focus,
 .button--alternate:hover {
-  background-color: $pink-light;
+  background-color: $tertiary-colour;
 }
 
-.button[href*="tel"] {
+.button-group .cta-text {
   align-self: flex-start;
-  background-color: transparent;
-  color: $text-colour;
-  margin-bottom: 2rem;
-}
-
-.button[href*="tel"] span:last-of-type {
   border-bottom: 4px solid $primary-colour;
+  margin-bottom: 2rem;
 }
 
 /* ------------------------------
@@ -254,15 +260,15 @@ h5 {
 }
 
 .section--lighter {
-  background-color: $white-pure;
+  background-color: transparent;
 }
 .section--highlight {
   color: $text-colour;
-  background-color: $white-pure;
+  background-color: $tertiary-colour;
 }
 
 .section .section--story-end {
-  background-color: $white-pure;
+  background-color: transparent;
 }
 
 .section--story-end :last-child {
@@ -290,19 +296,19 @@ h5 {
 }
 
 .nav-icon {
-  color: $white;
+  color: $white-pure;
 }
 
 .nav-item--text-only,
 .nav-item a {
-  color: $white;
+  color: $white-pure;
   text-decoration: none;
   font-weight: 600;
 }
 
 .nav-item--active,
 .nav-text-selector:hover {
-  color: $white;
+  color: $white-pure;
   border-bottom: 2px solid $white;
 }
 
@@ -383,11 +389,11 @@ h5 {
 .card {
   border: 1px solid $text-colour;
   font-size: 1rem;
-  background-color: $white-pure;
+  background-color: transparent;
 }
 
 .card--link:hover {
-  background-color: $grey-light-purple;
+  background-color: $grey-light;
   cursor: pointer;
 
   .link {
@@ -405,7 +411,7 @@ h5 {
 }
 
 .card--alternate.card--with-icon {
-  background-color: $white-pure;
+  background-color: transparent;
   color: $secondary-colour;
   border: 2px solid $icon-background;
   border-radius: 10px;
@@ -431,13 +437,13 @@ h5 {
 .info:active,
 .info:focus,
 .info:hover {
-  background-color: $pink-light;
+  background-color: $yellow-light;
 }
 
 /* Stops hover issue on iPad */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .info:hover {
-    background-color: $pink-light;
+    background-color: $tertiary-colour;
   }
 }
 

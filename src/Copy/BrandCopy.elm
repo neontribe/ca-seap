@@ -57,12 +57,12 @@ brandCopy key =
 
         CallToActionOne ->
             CallToAction
-                { action = DesktopInteractive
+                { action = DesktopDisplayOnly
                 , category = "phone"
                 , icon = "✨"
                 , href = "tel:03304409000"
                 , displayHref = "0330" ++ "\u{00A0}" ++ "440" ++ "\u{00A0}" ++ "9000"
-                , promptLong = "Call 0330 440 9000"
+                , promptLong = "Call us"
                 , promptShort = "Call"
                 }
 
