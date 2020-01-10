@@ -189,24 +189,11 @@ h5 {
   }
 }
 
-.link[href*="#/stories"] {
-  color: $primary-colour;
-}
-
 /* ------------------------------
 
    Button
 
 ------------------------------ */
-
-.section .button-group {
-  display: flex;
-  flex-direction: column;
-}
-
-.section--story-end .button-group {
-  flex-direction: row;
-}
 
 .button {
   color: $white-pure;
@@ -244,12 +231,6 @@ h5 {
   background-color: $tertiary-colour;
 }
 
-.button-group .cta-text {
-  align-self: flex-start;
-  border-bottom: 4px solid $primary-colour;
-  margin-bottom: 2rem;
-}
-
 /* ------------------------------
 
    Section
@@ -266,24 +247,6 @@ h5 {
 .section--highlight {
   color: $text-colour;
   background-color: $tertiary-colour;
-}
-
-.section .section--story-end {
-  background-color: transparent;
-}
-
-.section--story-end :last-child {
-  align-self: flex-start;
-}
-
-.section--story-end .button[href*="tel"] {
-  background-color: transparent;
-  margin-bottom: 0;
-}
-
-.section--story-end .button[href*="tel"] span:last-of-type {
-  border-bottom: none;
-  color: $primary-colour;
 }
 
 /* ------------------------------
@@ -407,19 +370,13 @@ h5 {
 }
 
 .card--alternate {
-  color: $white-pure;
-  background-color: $primary-colour;
-}
-
-.card--alternate.card--with-icon {
   background-color: transparent;
   color: $secondary-colour;
+}
+
+.card--with-icon {
   border: 2px solid $icon-background;
   border-radius: 10px;
-  article h2 {
-    color: $text-colour;
-  }
-
 }
 
 /* ------------------------------
@@ -428,10 +385,8 @@ h5 {
 
 ------------------------------ */
 
-.info {
-  background-color: transparent;
-  border: 2px solid $icon-background;
-  border-radius: 10px;
+.info,
+.card--with-icon article h2 {
   color: $text-colour;
 }
 
@@ -463,6 +418,11 @@ h5 {
    Story
 
 ------------------------------ */
+
+// Downward triangle below card
+.story:not(:last-child)::after {
+  border-top: 45px solid $white;
+}
 
 .story--message {
   background-color: $section-background;
