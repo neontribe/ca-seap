@@ -164,7 +164,7 @@ h5 {
   color: $primary-colour;
   border-bottom-color: transparent;
   font-weight: normal;
-  text-decoration: underline;
+  text-decoration: none;
 
   &:hover,
   &:active {
@@ -198,6 +198,7 @@ h5 {
 .button {
   color: $white-pure;
   background-color: $interaction-colour;
+  border-radius: 5em;
   font-size: 1.125rem;
   font-weight: bold;
   text-decoration: none;
