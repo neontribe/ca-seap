@@ -5,16 +5,16 @@
 ------------------------------ */
 
 @font-face {
-font-family: 'Frutiger LT Light';
+font-family: 'Frutiger';
 font-style: normal;
 font-weight: normal;
 src: url('./fonts/frutiger-lt-45-light.woff') format('woff');
 }
 
 @font-face {
-font-family: 'Frutiger LT Bold';
+font-family: 'Frutiger';
 font-style: normal;
-font-weight: normal;
+font-weight: bold;
 src: url('./fonts/frutiger-lt-65-bold.woff') format('woff');
 }
 
@@ -60,7 +60,7 @@ $focus-colour: $pink-light;
 
 :root {
   font-size: 100%;
-  font-family: 'Frutiger LT Light', 'Arial', sans-serif;
+  font-family: 'Frutiger', 'Arial', sans-serif;
   line-height: 1.5;
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 p {
-  font-family: 'Frutiger LT Light', 'Arial', sans-serif;
+  font-family: 'Frutiger', 'Arial', sans-serif;
 }
 
 h1,
@@ -80,7 +80,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Frutiger LT Bold', 'Arial', sans-serif;
+  font-family: 'Frutiger', 'Arial', sans-serif;
 }
 
 .company-info {
@@ -149,7 +149,7 @@ h5 {
 ------------------------------ */
 
 .link {
-  font-family: 'Frutiger LT Light', 'Arial', sans-serif;
+  font-family: 'Frutiger', 'Arial', sans-serif;
   color: inherit;
   border-bottom: 2px solid currentColor;
   text-decoration: none;
