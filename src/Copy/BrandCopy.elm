@@ -481,7 +481,11 @@ brandCopy key =
             CopyText "✨"
 
         StoryOne1Quote ->
-            CopyText "When my husband was first diagnosed with cancer, the treatment was amazing, he was in chemotherapy within 36 hours. But later, an A&E visit went very badly when protocols and procedures were ignored. We put in a complaint to the Health Care Trust, and one sentence in their reply made us so angry."
+            CopyText
+                """When my husband was first diagnosed with cancer, the treatment was amazing, he was in
+                chemotherapy within 36 hours. But later, an A&E visit went very badly when protocols and
+                procedures were ignored. We put in a complaint to the Health Care Trust, and one sentence
+                in their reply made us so angry."""
 
         StoryOne1ImageAlt ->
             CopyText "✨"
@@ -490,7 +494,12 @@ brandCopy key =
             CopyText "They said my husband’s treatment had been appropriate but we knew the protocol for neutropenic sepsis."
 
         StoryOne2Quote ->
-            CopyText "The leaflet about an advocate came with the reply. I had spoken to my husband. “What do you reckon, it’s a charity, we don’t have to but shall we give it a go?”. There were lots of forms but it was all very smooth. It was actually the week of my husband’s funeral when the worker called to arrange the first meeting, but I thought “I really do want to get on with this”."
+            CopyText
+                """The leaflet about an advocate came with the reply. I had spoken to my husband. “What do
+                you reckon, it’s a charity, we don’t have to but shall we give it a go?”. There were lots
+                of forms but it was all very smooth. It was actually the week of my husband’s funeral when
+                the worker called to arrange the first meeting, but I thought “I really do want to get on
+                with this”."""
 
         StoryOne2ImageAlt ->
             CopyText "✨"
@@ -499,7 +508,11 @@ brandCopy key =
             CopyText "You feel like you can’t say anything, it's the medical profession, they will close ranks against you."
 
         StoryOne3Quote ->
-            CopyText "I had this real sense of relief that I was going to see somebody and when I met Susan, our advocate, it was so reassuring. She handed me a box of tissues and put together a letter in my name. Later, before the response meeting we met and she went through it with me, asking me which key things I wanted to remember to tell them."
+            CopyText
+                """I had this real sense of relief that I was going to see somebody and when I met Susan,
+                our advocate, it was so reassuring. She handed me a box of tissues and put together a letter
+                in my name. Later, before the response meeting we met and she went through it with me, asking
+                me which key things I wanted to remember to tell them."""
 
         StoryOne3ImageAlt ->
             CopyText "✨"
@@ -508,7 +521,11 @@ brandCopy key =
             CopyText "You do worry that you might end up with a marker against your name."
 
         StoryOne4Quote ->
-            CopyText "When we got to the response meeting it was amicable. They made big changes to the neutropenic sepsis process. Nurses can administer the intravenous drugs now, not just doctors and there are posters all over the hospital. I just felt like an enormous weight had been lifted - that’s all we’d wanted, them to admit that it wasn’t right."
+            CopyText
+                """When we got to the response meeting it was amicable. They made big changes to the
+                neutropenic sepsis process. Nurses can administer the intravenous drugs now, not just
+                doctors and there are posters all over the hospital. I just felt like an enormous weight
+                had been lifted - that’s all we’d wanted, them to admit that it wasn’t right."""
 
         StoryOne4ImageAlt ->
             CopyText "✨"
@@ -526,7 +543,11 @@ brandCopy key =
             CopyText "✨"
 
         StoryTwo1Quote ->
-            CopyText """I hate hospitals and I hate going to the doctor. I’ve had depression since I was a teenager and it took forever to get any treatment. So I didn’t want to go to A&E. But I had horrendous stomach cramps and I was throwing up, and I couldn’t get my temperature to go down and late one night, my friends convinced me to go."""
+            CopyText
+                """I hate hospitals and I hate going to the doctor. I’ve had depression since
+                I was a teenager and it took forever to get any treatment. So I didn’t want to
+                go to A&E. But I had horrendous stomach cramps and I was throwing up, and I couldn’t
+                get my temperature to go down and late one night, my friends convinced me to go."""
 
         StoryTwo1ImageAlt ->
             CopyText "✨"
@@ -535,7 +556,12 @@ brandCopy key =
             CopyText ""
 
         StoryTwo2Quote ->
-            CopyText """I knew I’d have to wait. But I didn’t expect the first nurse who saw me to lecture me about drinking and tell me “I’d probably got an STD”. I got angry and told her she shouldn’t talk shit about someone she didn’t know like that and then she cussed at me and left. Eventually I got seen by a Doctor and it turned out I had appendicitis."""
+            CopyText
+                """I knew I’d have to wait. But I didn’t expect the first nurse who saw me to
+                lecture me about drinking and tell me “I’d probably got an STD”. I got angry
+                and told her she shouldn’t talk shit about someone she didn’t know like that
+                and then she cussed at me and left. Eventually I got seen by a Doctor and it
+                turned out I had appendicitis."""
 
         StoryTwo2ImageAlt ->
             CopyText "✨"
@@ -544,7 +570,12 @@ brandCopy key =
             CopyText "I forgot about the first bit of the visit for a while."
 
         StoryTwo3Quote ->
-            CopyText """When I was recovering I started chatting online about how awful it was, and asking if people thought it was because I was female, young and black that I got treated like that. I wasn’t going to do anything formal. But my friend Alisha’s mum worked in a different A&E and basically Alisha spent ages explaining why I should try calling the advocacy and complaints service."""
+            CopyText
+                """When I was recovering I started chatting online about how awful it was, and
+                asking if people thought it was because I was female, young and black that I got
+                treated like that. I wasn’t going to do anything formal. But my friend Alisha’s
+                mum worked in a different A&E and basically Alisha spent ages explaining why I
+                should try calling the advocacy and complaints service."""
 
         StoryTwo3ImageAlt ->
             CopyText "✨"
@@ -553,7 +584,12 @@ brandCopy key =
             CopyText ""
 
         StoryTwo4Quote ->
-            CopyText """I had to phone up for forms to fill in. And I was pretty stressed about getting them right - so I was glad Alisha knew enough to help me. It took ages to hear anything back, but when I did they told me they were adding new training on diversity and talking about health with young people. That made me feel good."""
+            CopyText
+                """I had to phone up for forms to fill in. And I was pretty stressed
+                about getting them right - so I was glad Alisha knew enough to help me.
+                It took ages to hear anything back, but when I did they told me they
+                were adding new training on diversity and talking about health with
+                young people. That made me feel good."""
 
         StoryTwo4ImageAlt ->
             CopyText "✨"
@@ -571,7 +607,11 @@ brandCopy key =
             CopyText "✨"
 
         StoryThree1Quote ->
-            CopyText """I was very angry about what happened when I was in psychiatric care. You don’t need to know the details, but no one should ever be treated like that. And I knew about advocates, because there was one in the hospital, and she gave me information about who could help me when I left."""
+            CopyText
+                """I was very angry about what happened when I was in psychiatric care.
+                You don’t need to know the details, but no one should ever be treated
+                like that. And I knew about advocates, because there was one in the hospital,
+                and she gave me information about who could help me when I left."""
 
         StoryThree1ImageAlt ->
             CopyText "✨"
@@ -580,7 +620,12 @@ brandCopy key =
             CopyText ""
 
         StoryThree2Quote ->
-            CopyText """I didn’t know what I wanted. I didn’t know what would make it better. It was easy for me to think “what’s the point, nobody listens, nothing changes“. But I didn’t want to let it go, so I phoned up and filled in the forms. And when I finally met Sam, my advocate, I quickly knew she was the right person to help me."""
+            CopyText
+                """I didn’t know what I wanted. I didn’t know what would make it better.
+                It was easy for me to think “what’s the point, nobody listens, nothing changes“.
+                But I didn’t want to let it go, so I phoned up and filled in the forms.
+                And when I finally met Sam, my advocate, I quickly knew she was the right
+                person to help me."""
 
         StoryThree2ImageAlt ->
             CopyText "✨"
@@ -589,7 +634,12 @@ brandCopy key =
             CopyText "I’m not shy about complaining but I needed help navigating the system."
 
         StoryThree3Quote ->
-            CopyText """I never once felt I was wasting her time. She listened. She believed me. And she did all the things she said she would. She kept redrafting a letter until I was 100% happy with it. I was sure that if I’d just written to the trust I would have just been dismissed. This way, I knew at the very least it was being logged."""
+            CopyText
+                """I never once felt I was wasting her time. She listened. She believed me.
+                And she did all the things she said she would. She kept redrafting a letter
+                until I was 100% happy with it. I was sure that if I’d just written to the
+                trust I would have just been dismissed. This way, I knew at the very least
+                it was being logged."""
 
         StoryThree3ImageAlt ->
             CopyText "✨"
@@ -598,7 +648,11 @@ brandCopy key =
             CopyText "Advocates seem to have power."
 
         StoryThree4Quote ->
-            CopyText """In the end, after months, Sam managed to get a meeting set up. I got an apology. And it turns out that’s what I’d wanted, an apology. Being believed. I didn’t know that was what I wanted at the beginning, but it felt good to get it. It meant I could move on."""
+            CopyText
+                """In the end, after months, Sam managed to get a meeting set up. I got
+                an apology. And it turns out that’s what I’d wanted, an apology. Being believed.
+                I didn’t know that was what I wanted at the beginning, but it felt good to get it.
+                It meant I could move on."""
 
         StoryThree4ImageAlt ->
             CopyText "✨"
@@ -616,7 +670,11 @@ brandCopy key =
             CopyText "✨"
 
         StoryFour1Quote ->
-            CopyText "My surgery is in a little village, I’ve been with them for 9 years and had never had to make a complaint or get cross with them. But I won’t let the status quo stand when things are unfair. So when I was messed around getting the new medication I needed to go about my life normally I did complain."
+            CopyText
+                """My surgery is in a little village, I’ve been with them for 9 years and had never
+                had to make a complaint or get cross with them. But I won’t let the status quo stand
+                when things are unfair. So when I was messed around getting the new medication I needed
+                to go about my life normally I did complain."""
 
         StoryFour1ImageAlt ->
             CopyText "✨"
@@ -625,7 +683,12 @@ brandCopy key =
             CopyText ""
 
         StoryFour2Quote ->
-            CopyText "I wanted to know when my medication would be ready, but they have a policy where you can’t phone them. So I left messages. But they said they were too busy to listen to them - it felt like they were incompetent. I went in and I did get the tablets, but the staff member was quite rude. I told them I wanted an explanation from the practice manager or I would complain."
+            CopyText
+                """I wanted to know when my medication would be ready, but they have a policy where you
+                can’t phone them. So I left messages. But they said they were too busy to listen to them
+                - it felt like they were incompetent. I went in and I did get the tablets, but the staff
+                member was quite rude. I told them I wanted an explanation from the practice manager or
+                I would complain."""
 
         StoryFour2ImageAlt ->
             CopyText "✨"
@@ -634,7 +697,11 @@ brandCopy key =
             CopyText "I think they were snowed under and the GP’s didn’t know what was going on."
 
         StoryFour3Quote ->
-            CopyText "I heard nothing from the practice manager. I knew about advocates from leaflets so I called and started the process of forms and agreements. They told me it would be quite a while before someone was free to help me, but I could call their contact centre while I was waiting."
+            CopyText
+                """I heard nothing from the practice manager. I knew about advocates from leaflets so
+                I called and started the process of forms and agreements. They told me it would be quite
+                a while before someone was free to help me, but I could call their contact centre while
+                I was waiting."""
 
         StoryFour3ImageAlt ->
             CopyText "✨"
@@ -643,7 +710,10 @@ brandCopy key =
             CopyText "They were friendly and helpful."
 
         StoryFour4Quote ->
-            CopyText "The advocate wrote 3 or 4 letters for me, and it went on for about six months. We got a meeting where I could talk about what happened and how it felt. I think it was just mismanagement. I think there are more staff and the pressure has been taken off a bit now."
+            CopyText
+                """The advocate wrote 3 or 4 letters for me, and it went on for about six months. We got a
+                meeting where I could talk about what happened and how it felt. I think it was just mismanagement.
+                I think there are more staff and the pressure has been taken off a bit now."""
 
         StoryFour4ImageAlt ->
             CopyText "✨"
