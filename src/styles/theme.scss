@@ -1,21 +1,37 @@
-
 /* ------------------------------
 
-   Variables
+  seAp Fonts
 
 ------------------------------ */
 
-// Contemplating Action variables
-$purple: #662483;
-$purple-light: #8b1abc;
-$blue-darkest: #1a1e64;
-$blue-dark: #30336d;
-$blue-light: #4575ba;
+@font-face {
+font-family: 'Frutiger';
+font-style: normal;
+font-weight: normal;
+src: url('./fonts/frutiger-lt-45-light.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Frutiger';
+font-style: normal;
+font-weight: bold;
+src: url('./fonts/frutiger-lt-65-bold.woff') format('woff');
+}
+
+/* ------------------------------
+
+   New seAp Variables
+
+------------------------------ */
+
+$pink: #EC008C;
+$pink-light: rgba(253, 229, 243, 0.5);
+$grey: #767676;
+$grey-light: #f1f1f1;
+$yellow: #FAA81C;
+$yellow-light: #fef6e8;
 $black: #3c3c3b;
 $white: #f5f5f5;
-$grey-light: #eee;
-$grey-light-purple: #e4e1e7;
-$lime-green: #07c103;
 
 // Utility variables
 $white-pure: #ffffff;
@@ -23,11 +39,14 @@ $black-pure: #000000;
 $shadow: rgba(89, 97, 116, 0.4);
 
 // Theme colours
-$primary-colour: $blue-darkest;
-$secondary-colour: $blue-light;
-$text-colour: $black;
-$interaction-colour: $purple;
-$focus-colour: $lime-green;
+$primary-colour: $pink;
+$secondary-colour: $grey;
+$tertiary-colour: $pink-light;
+$section-background: $grey-light;
+$text-colour: $black-pure;
+$interaction-colour: $grey;
+$icon-background: $yellow;
+$focus-colour: $pink-light;
 
 /* ------------------------------
 
@@ -41,18 +60,18 @@ $focus-colour: $lime-green;
 
 :root {
   font-size: 100%;
-  font-family: 'Poppins', 'Arial';
+  font-family: 'Frutiger', 'Arial', sans-serif;
   line-height: 1.5;
 }
 
 body {
   color: $text-colour;
-  background-color: $white-pure;
+  background-color: transparent;
   font-size: 1.1rem;
 }
 
 p {
-  font-family: 'Poppins', 'Arial';
+  font-family: 'Frutiger', 'Arial', sans-serif;
 }
 
 h1,
@@ -61,7 +80,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', 'Arial';
+  font-family: 'Frutiger', 'Arial', sans-serif;
 }
 
 .company-info {
@@ -101,8 +120,8 @@ h5 {
 ------------------------------ */
 
 .icon {
-  color: $white;
-  background-color: $secondary-colour;
+  color: $white-pure;
+  background-color: $icon-background;
 }
 
 .icon--alternate {
@@ -120,7 +139,7 @@ h5 {
 }
 
 .title--alternate {
-  color: $primary-colour;
+  color: $text-colour;
 }
 
 /* ------------------------------
@@ -130,7 +149,7 @@ h5 {
 ------------------------------ */
 
 .link {
-  font-family: 'Poppins', 'Arial';
+  font-family: 'Frutiger', 'Arial', sans-serif;
   color: inherit;
   border-bottom: 2px solid currentColor;
   text-decoration: none;
@@ -142,15 +161,16 @@ h5 {
 }
 
 .link--plain {
-  color: $interaction-colour;
+  color: $primary-colour;
   border-bottom-color: transparent;
   font-weight: normal;
   text-decoration: none;
 
   &:hover,
   &:active {
-    color: $interaction-colour;
+    color: $black;
     border-bottom-color: currentColor;
+    text-decoration: none;
   }
 }
 
@@ -176,7 +196,7 @@ h5 {
 ------------------------------ */
 
 .button {
-  color: $white;
+  color: $white-pure;
   background-color: $interaction-colour;
   border-radius: 5em;
   font-size: 1.125rem;
@@ -187,18 +207,29 @@ h5 {
 .button:active,
 .button:focus,
 .button:hover {
-  background-color: $purple-light;
+  background-color: $tertiary-colour;
+  color: $secondary-colour;
+}
+
+.button--cookie {
+  background-color: $primary-colour;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: $secondary-colour;
+    color: $white-pure;
+  }
 }
 
 .button--alternate {
-  color: $white;
+  color: $white-pure;
   background-color: $interaction-colour;
 }
 
 .button--alternate:active,
 .button--alternate:focus,
 .button--alternate:hover {
-  background-color: $purple-light;
+  background-color: $tertiary-colour;
 }
 
 /* ------------------------------
@@ -207,20 +238,16 @@ h5 {
 
 ------------------------------ */
 
-.section {
-  background-color: $white;
-}
-
 .section--darker {
-  background-color: $grey-light;
+  background-color: $section-background;
 }
 
 .section--lighter {
-  background-color: $white-pure;
+  background-color: transparent;
 }
 .section--highlight {
   color: $text-colour;
-  background-color: $grey-light-purple;
+  background-color: $tertiary-colour;
 }
 
 /* ------------------------------
@@ -234,19 +261,19 @@ h5 {
 }
 
 .nav-icon {
-  color: $white;
+  color: $white-pure;
 }
 
 .nav-item--text-only,
 .nav-item a {
-  color: $white;
+  color: $white-pure;
   text-decoration: none;
   font-weight: 600;
 }
 
 .nav-item--active,
 .nav-text-selector:hover {
-  color: $white;
+  color: $white-pure;
   border-bottom: 2px solid $white;
 }
 
@@ -309,18 +336,29 @@ h5 {
 
 /* ------------------------------
 
+   Footer
+
+------------------------------ */
+
+.section--footer {
+  background-color: $section-background;
+  color: $secondary-colour;
+}
+
+/* ------------------------------
+
    Card
 
 ------------------------------ */
 
 .card {
-  border-radius: 10px;
+  border: 1px solid $text-colour;
   font-size: 1rem;
-  background-color: $white;
+  background-color: transparent;
 }
 
 .card--link:hover {
-  background-color: $grey-light-purple;
+  background-color: $section-background;
   cursor: pointer;
 
   .link {
@@ -333,8 +371,13 @@ h5 {
 }
 
 .card--alternate {
-  color: $white-pure;
-  background-color: $primary-colour;
+  background-color: transparent;
+  color: $secondary-colour;
+}
+
+.card--with-icon {
+  border: 2px solid $icon-background;
+  border-radius: 10px;
 }
 
 /* ------------------------------
@@ -343,16 +386,21 @@ h5 {
 
 ------------------------------ */
 
+.info,
+.card--with-icon article h2 {
+  color: $text-colour;
+}
+
 .info:active,
 .info:focus,
 .info:hover {
-  background-color: $purple;
+  background-color: $yellow-light;
 }
 
 /* Stops hover issue on iPad */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .info:hover {
-    background-color: $purple;
+    background-color: $tertiary-colour;
   }
 }
 
@@ -363,6 +411,7 @@ h5 {
 ------------------------------ */
 
 .stories--more-link {
+  color: $primary-colour;
   font-size: 0.875rem;
 }
 
@@ -378,7 +427,7 @@ h5 {
 }
 
 .story--message {
-  background-color: $white;
+  background-color: $section-background;
   color: $text-colour;
   font-size: 1rem;
 }
