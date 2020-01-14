@@ -606,6 +606,52 @@ brandCopy key =
         StoryThree4Message ->
             CopyText ""
 
+        StoryFourTitle ->
+            CopyText "Lucille"
+
+        StoryFourTeaser ->
+            CopyText "Lucille had never needed to complain about her GP surgery, but when her new medication was messed about she had to speak up."
+
+        StoryFourTeaserImageAlt ->
+            CopyText "✨"
+
+        StoryFour1Quote ->
+            CopyText """My surgery is in a little village, I’ve been with them for 9 years and had never had to make a complaint or get cross with them. But I won’t let the status quo stand when things are unfair. So when I was messed around getting the new medication I needed to go about my life normally I did complain."""
+
+        StoryFour1ImageAlt ->
+            CopyText "✨"
+
+        StoryFour1Message ->
+            CopyText ""
+
+        StoryFour2Quote ->
+            CopyText """I wanted to know when my medication would be ready, but they have a policy where you can’t phone them. So I left messages. But they said they were too busy to listen to them - it felt like they were incompetent. I went in and I did get the tablets, but the staff member was quite rude. I told them I wanted an explanation from the practice manager or I would complain."""
+
+        StoryFour2ImageAlt ->
+            CopyText "✨"
+
+        StoryFour2Message ->
+            CopyText "I think they were snowed under and the GP’s didn’t know what was going on."
+
+        StoryFour3Quote ->
+            CopyText """I heard nothing from the practice manager. I knew about advocates from leaflets so I called and started the process of forms and agreements. They told me it would be quite a while before someone was free to help me, but I could call their contact centre while I was waiting."""
+
+        StoryFour3ImageAlt ->
+            CopyText "✨"
+
+        StoryFour3Message ->
+            CopyText "They were friendly and helpful."
+
+        StoryFour4Quote ->
+            CopyText """The advocate wrote 3 or 4 letters for me, and it went on for about six months. We got a meeting where I could talk about what happened and how it felt. I think it was just mismanagement. I think there are more staff and the pressure has been taken off a bit now."""
+
+        StoryFour4ImageAlt ->
+            CopyText "✨"
+
+        StoryFour4Message ->
+            CopyText "A meeting is a good way to move on. I can keep using my little village surgery."
+
+
 
 relatedInfo : Int -> List Int
 relatedInfo storyId =
@@ -620,4 +666,4 @@ relatedInfo storyId =
             [ 1, 4 ]
 
         _ ->
-            [ 1 ]
+            [ 1, 5 ]
