@@ -57,12 +57,12 @@ brandCopy key =
 
         CallToActionOne ->
             CallToAction
-                { action = DesktopInteractive
+                { action = DesktopDisplayOnly
                 , category = "phone"
-                , icon = "✨"
+                , icon = "phone"
                 , href = "tel:03304409000"
                 , displayHref = "0330" ++ "\u{00A0}" ++ "440" ++ "\u{00A0}" ++ "9000"
-                , promptLong = "Call 0330 440 9000"
+                , promptLong = "Call us"
                 , promptShort = "Call"
                 }
 
@@ -70,9 +70,9 @@ brandCopy key =
             CallToAction
                 { action = DesktopInteractive
                 , category = "page"
-                , icon = "✨"
+                , icon = "book"
                 , href = "#/stories"
-                , displayHref = "Stories"
+                , displayHref = ""
                 , promptLong = "Stories"
                 , promptShort = "Stories"
                 }
@@ -81,7 +81,7 @@ brandCopy key =
             CallToAction
                 { action = DesktopInteractive
                 , category = "email"
-                , icon = "✨"
+                , icon = "email"
                 , href = "mailto:info@seap.org.uk"
                 , displayHref = "info@seap.org.uk"
                 , promptLong = "email info@seap.org.uk"
@@ -98,7 +98,7 @@ brandCopy key =
             CopyText "Stories"
 
         IconStories ->
-            CopyText "✨"
+            CopyText "book"
 
         CookieDescription ->
             CopyText "Can we use cookies to help improve this site? We'd like to use Google Analytics cookies to collect and report information on how people use the site. Allowing us to use cookies does not allow us to identify you. For more information please see our 'Privacy Policy' page."
@@ -369,7 +369,7 @@ brandCopy key =
             CopyText "what-happens-when-you-contact-us"
 
         InfoOneIcon ->
-            CopyText "✨"
+            CopyText "info"
 
         InfoOneContent ->
             CopyText "Our trained helpline staff will listen to what has happened to you and offer you advice explain your choices on what you can do next. If you decide you want to complain, you can choose to use a self-help pack or to be contacted by our specialist advocates. They are experienced, trained workers who are there to help and support you through every step of your complaint about an NHS service. They can work with you by phone, by email or by meeting face to face. They will ensure your voice is heard."
@@ -381,7 +381,7 @@ brandCopy key =
             CopyText "what-can-i-expect"
 
         InfoTwoIcon ->
-            CopyText "✨"
+            CopyText "question"
 
         InfoTwoContent ->
             CopySection
@@ -403,7 +403,7 @@ brandCopy key =
             CopyText "am-i-harming-nhs"
 
         InfoThreeIcon ->
-            CopyText "✨"
+            CopyText "hospital"
 
         InfoThreeContent ->
             CopyText "No. Not at all. It’s easy to feel that you don’t want to add to the NHS’s problems and feel bad for complaining. But the NHS wants people to report problems. They have a saying ‘complaints are a gift to the NHS’ because they show how it can get better. Even though the complaints process can seem hard, it’s worth it to make a difference. Our team can talk to you about how your complaint could help improve services."
@@ -415,7 +415,7 @@ brandCopy key =
             CopyText "am-i-making-a-fuss"
 
         InfoFourIcon ->
-            CopyText "✨"
+            CopyText "users"
 
         InfoFourContent ->
             CopyText "Thinking about complaining for the first time can be really hard. You might be worried that your problem isn’t really important enough. You may feel embarrassed and not want to bother anyone. You might be blaming yourself for what went wrong. Lots of people feel like this. But all problems are important. If you or someone you love have been treated in a way that worries you then it is important enough. Contact us to talk through your situation. We can help you find a path that is right for you."
@@ -427,7 +427,7 @@ brandCopy key =
             CopyText "will-i-be-treated-differently"
 
         InfoFiveIcon ->
-            CopyText "✨"
+            CopyText "speech"
 
         InfoFiveContent ->
             CopyText "Deciding to take a complaint forward can be scary, especially if you are still receiving treatment. Lots of people worry that complaining will make things worse. The NHS is not allowed to act like that. There are standards that they must follow when they deal with complaints. So if you decide to make a complaint the NHS should still treat you fairly, politely and with respect. Your care and treatment should never be affected as a result. Our team can help you remind the NHS of these responsibilities."
@@ -439,7 +439,7 @@ brandCopy key =
             CopyText "what-does-complaining-entail"
 
         InfoSixIcon ->
-            CopyText "✨"
+            CopyText "clipboard"
 
         InfoSixContent ->
             CopyText "Some complaints are simple and some are complicated. Sometimes the process can take a long time. But you are in control. If it becomes too much, you can drop a complaint at any time. You can also turn to our team for support at any time. They can help you make decisions, they can write additional letters to try and speed things up and they can just listen if you are finding it stressful. Many people decide that even though the process is long, the feeling they get when they receive an apology or an explanation is worth it."
