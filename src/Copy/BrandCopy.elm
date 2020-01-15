@@ -50,55 +50,55 @@ brandCopy : Key -> Copy
 brandCopy key =
     case key of
         SiteTitle ->
-            CopyText "Contemplating Action"
+            CopyText "NHS Complaints Matter"
 
         AppTitle ->
-            CopyText "Contemplating Action"
+            CopyText "NHS Complaints Matter"
 
         CallToActionOne ->
             CallToAction
-                { action = DesktopInteractive
-                , category = "survey"
-                , icon = "check-square-o"
-                , href = "https://Contemplating-action.typeform.com/to/zUOTYA"
-                , displayHref = ""
-                , promptLong = "Take part in our survey"
-                , promptShort = "Survey"
+                { action = DesktopDisplayOnly
+                , category = "phone"
+                , icon = "phone"
+                , href = "tel:03304409000"
+                , displayHref = "0330" ++ "\u{00A0}" ++ "440" ++ "\u{00A0}" ++ "9000"
+                , promptLong = "Call us"
+                , promptShort = "Call"
                 }
 
         CallToActionTwo ->
             CallToAction
                 { action = DesktopInteractive
                 , category = "page"
-                , icon = "question-circle-o"
-                , href = "/stories"
-                , displayHref = "Find Out More"
-                , promptLong = "Find Out More"
-                , promptShort = "Find Out More"
+                , icon = "book"
+                , href = "#/stories"
+                , displayHref = ""
+                , promptLong = "Stories"
+                , promptShort = "Stories"
                 }
 
         CallToActionThree ->
             CallToAction
                 { action = DesktopInteractive
                 , category = "email"
-                , icon = "envelope"
-                , href = "mailto:hello@contemplatingaction.org.uk"
-                , displayHref = "hello@contemplatingaction.org.uk"
-                , promptLong = "Email us"
-                , promptShort = "Email"
+                , icon = "email"
+                , href = "mailto:info@seap.org.uk"
+                , displayHref = "info@seap.org.uk"
+                , promptLong = "email info@seap.org.uk"
+                , promptShort = "email"
                 }
 
         ContentLinkLong ->
-            CopyText "Find out more"
+            CopyText "Show me the stories"
 
         ContentLinkMedium ->
-            CopyText "Find Out More"
+            CopyText "Show me the stories"
 
         ContentLinkShort ->
-            CopyText "Find Out More"
+            CopyText "Stories"
 
         IconStories ->
-            CopyText "question-circle-o"
+            CopyText "book"
 
         CookieDescription ->
             CopyText "Can we use cookies to help improve this site? We'd like to use Google Analytics cookies to collect and report information on how people use the site. Allowing us to use cookies does not allow us to identify you. For more information please see our 'Privacy Policy' page."
@@ -111,65 +111,63 @@ brandCopy key =
 
         --Home Page
         HomeReadAboutH2 ->
-            CopyText "A project exploring how to encourage people to seek support. Can visual stories help change lives?"
+            CopyText "When you are ill you need to be treated well. Find out how we can help you speak up when things go wrong."
 
         HomeBannerImageAlt ->
-            CopyText "A description of banner image."
+            CopyText ""
 
         HomeTalkToSomeoneH2 ->
-            CopyText "Breaking down fears and barriers."
+            CopyText "Your rights, your voice, your choice"
 
         HomeP1 ->
-            CopyWithLink
-                { textBefore = "This is a demonstration version of a web app we believe could be used by different organisations to encourage people to use a helpline or web chat or text service. We believe that reassuring people that their fears and challenges are shared will help them take early steps on a journey of change. In a live app the information in this section would be additional information about the organisation and it’s support services for people who did not follow the direct link to the stories. Read in depth about this project"
-                , linkText = "here."
-                , destination = "https://neontribe.co.uk/contemplating-action"
-                , textAfter = ""
-                }
+            CopySection
+            [ CopyText "When something goes wrong and you feel like the NHS has let you down it can be hard. You have a right to complain and the NHS needs your feedback in order to improve their service. Call seAp for free information about getting your voice heard and other organisations that can help."
+            , CopyText "If there are parts of your complaint you cannot do for yourself, you can ask for one of the seAp team to be your advocate. They will listen to you, support you to speak for yourself, and help you to make choices. They can also write letters for you, help you in complaint meetings, and talk to other people for you if necessary."
+            ]
 
         HomeP2 ->
-            CopyText "This space is used to give a reminder about what to do in a crisis or high risk situation when the app is not the right support."
+            CopyText "The seAp service is completely confidential, free and independent of the NHS. It can only be used to complain about NHS services, we can’t help with complaints about private health care or social care provided by the local council."
 
         -- Privacy Page
         PrivacyTitleH2 ->
-            CopyText "Contemplating Action Privacy Policy and Cookies"
+            CopyText "✨"
 
         PrivacyIntroP ->
-            CopyText "This policy relates to www.contemplatingaction.org.uk (“the Site”) which is owned by Neontribe ltd and related activity "
+            CopyText "✨ "
 
         PrivacyCompanyAddress ->
             CopyList
-                [ CopyText "Neontribe ltd trading as Neontribe"
-                , CopyText "Registered as a limited company in England & Wales"
-                , CopyText "Business registration: 06165574"
-                , CopyText "Registered office: 106 Lincoln St. Norwich, Norfolk, NR2 3LB."
+                [ CopyText "✨"
+                , CopyText "✨"
+                , CopyText "✨"
+                , CopyText "✨"
                 ]
 
         PrivacySectionOneH3 ->
-            CopyText "What information is collected?"
+            CopyText "✨"
 
         PrivacySectionOneP ->
-            CopyText "We collect the following information from people who use this website:"
+            CopyText "✨"
 
         PrivacySectionOneList ->
             CopyList
-                [ CopyText "Email addresses of people who communicate with us via email"
-                , CopyText "Information volunteered by people in the course of using of the website (predominantly survey responses)"
-                , CopyText "Analytics and tracking data about people’s site usage"
+                [ CopyText "✨"
+                , CopyText "✨"
+                , CopyText "✨"
                 ]
 
         PrivacySectionTwoH3 ->
-            CopyText "How is the information used?"
+            CopyText "✨"
 
         PrivacySectionTwoP ->
-            CopyText "Neontribe uses the information you provide to:"
+            CopyText "✨"
 
         PrivacySectionTwoList ->
             CopyList
-                [ CopyText "Improve the usability of the Site"
-                , CopyText "Help design future projects "
-                , CopyText "Contribute to research about third sector use of digital"
-                , CopyText "Send you any information you have requested relating to the Contemplating Action project"
+                [ CopyText "✨"
+                , CopyText "✨ "
+                , CopyText "✨"
+                , CopyText "✨"
                 ]
 
         PrivacySectionThreeH3 ->
@@ -177,43 +175,43 @@ brandCopy key =
 
         PrivacySectionThreeP1 ->
             CopyText
-                "If you chose to give us contact details we will only contact you in relation to these four things. You can also tell us if you no longer wish to receive information from Neontribe by replying to any email from us with the subject line Unsubscribe, or sending a message to info@neontribe.co.uk requesting to unsubscribe."
+                "✨"
 
         PrivacySectionThreeP2 ->
-            CopyText "Information that is identifiable as relating to you (i.e. it has not been edited to make it anonymous) is not shared with or sold to other organizations for commercial purposes, other than under the following circumstances:"
+            CopyText "✨"
 
         PrivacySectionThreeList ->
             CopyList
-                [ CopyText "If it is necessary to share information in order to investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person, violations of Terms of Service, or as otherwise required by law."
-                , CopyText "If we transfer information about you if Neontribe is acquired by or merged with another organisation, other than an organisation established by us and controlled by us."
-                , CopyText "You have explicitly chosen to have us share the information with CAST - the centre for acceleration of social technology whilst giving us the information - in which case it will be freely shared with them."
+                [ CopyText "✨"
+                , CopyText "✨"
+                , CopyText "✨"
                 ]
 
         PrivacySectionFourH3 ->
-            CopyText "Where is the information stored?"
+            CopyText "✨"
 
         PrivacySectionFourP1 ->
             CopyText ""
 
         PrivacySectionFourList ->
             CopyList
-                [ CopyText "On our computers"
+                [ CopyText "✨"
                 , CopyWithLink
-                    { textBefore = "On our survey provider Typeform’s servers. For more information see"
-                    , linkText = "Typeform's privacy policy"
-                    , destination = "https://www.typeform.com/help/gdpr-rights-for-respondents/"
+                    { textBefore = "✨"
+                    , linkText = "✨"
+                    , destination = "#"
                     , textAfter = "."
                     }
                 , CopyWithLink
-                    { textBefore = "In Google Analytics. For more information see"
-                    , linkText = "Google's privacy policy"
-                    , destination = "https://support.google.com/analytics/answer/6004245"
+                    { textBefore = "✨"
+                    , linkText = "✨"
+                    , destination = "✨"
                     , textAfter = "."
                     }
                 , CopyWithLink
-                    { textBefore = "By our partner CAST on their servers if you have explicitly expressed the desire to share your information with them whilst using our site. For more information see"
-                    , linkText = "CAST's privacy policy"
-                    , destination = "https://www.castsoftware.com/privacy"
+                    { textBefore = "✨"
+                    , linkText = "✨"
+                    , destination = "✨"
                     , textAfter = "."
                     }
                 ]
@@ -222,28 +220,28 @@ brandCopy key =
             CopyText ""
 
         PrivacySectionFiveH3 ->
-            CopyText "Your rights"
+            CopyText "✨"
 
         PrivacySectionFiveP ->
             CopyWithLink
-                { textBefore = "We guarantee to meet your rights in compliance with GDPR. Find out about those rights from the"
-                , linkText = "ICO GDPR indvidual rights guide"
-                , destination = "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/"
-                , textAfter = ". To exercise any of your rights, please contact us at hello@contemplatingaction.org.uk"
+                { textBefore = "✨"
+                , linkText = "✨"
+                , destination = "#"
+                , textAfter = ". ✨"
                 }
 
         PrivacySectionFiveList ->
             CopyText ""
 
         PrivacySectionSixH3 ->
-            CopyText "Use of cookies"
+            CopyText "✨"
 
         PrivacySectionSixP1 ->
             CopyText
-                "Cookies are pieces of information that a website transfers to your hard drive. Most web browsers automatically accept cookies, but if you prefer, you can change your browser to prevent that and will still be able to use the site. "
+                "✨ "
 
         PrivacySectionSixP2 ->
-            CopyText "Contemplating Action uses cookies to:"
+            CopyText "✨"
 
         PrivacySectionSixP3 ->
             CopyText ""
@@ -253,17 +251,17 @@ brandCopy key =
 
         PrivacySectionSixList ->
             CopyList
-                [ CopyText "Monitor the number of visitors to our website"
-                , CopyText "Monitor how users use our website, i.e. which pages they have accessed"
-                , CopyText "To help improve our website"
-                , CopyText "For more data on Cookies visit www.aboutcookies.org. In addition to detailing extensive information on cookies this site also provides explanations on how to disable cookies on your computer."
+                [ CopyText "✨"
+                , CopyText "✨"
+                , CopyText "✨"
+                , CopyText "✨"
                 ]
 
         PrivacySectionSevenH3 ->
-            CopyText "Your acceptance of these terms"
+            CopyText "✨"
 
         PrivacySectionSevenP ->
-            CopyText "By using this site, you consent to the collection and use of this information by Neontribe and to our privacy policy. Please send any questions, concerns or comments you have about these policies to info@neontribe.co.uk "
+            CopyText "✨"
 
         PrivacySectionSevenList ->
             CopyText ""
@@ -282,37 +280,37 @@ brandCopy key =
             CopyText "Our Supporters"
 
         SupportersP1 ->
-            CopyText "This page, available in the landing page footer, allows organisations to thank their partners."
+            CopyText "We would like to thank our funders, whose generosity has made this website possible."
 
         SupportersP2 ->
-            CopyText "We are grateful to all the partners that have made this project possible."
+            CopyText "This web app was funded by CAST - Centre for Acceleration of Social Technology - as part of a project called Contemplating Action which is seeking to find out whether visual stories can help people overcome their fears and barriers to getting support. The project has produced an app that could be used by different charities to encourage people to reach out and get help by reassuring them that they are not alone."
 
         CastLogoAlt ->
-            CopyText "CAST"
+            CopyText "Centre for Acceleration of Social Technology logo"
 
         ComicReliefLogoAlt ->
-            CopyText "Comic Relief"
+            CopyText "Comic Relief logo"
 
         DepartmentForCultureLogoAlt ->
-            CopyText "Department for Culture Media & Sport"
+            CopyText "Department for Culture Media & Sport logo"
 
         BigLotteryLogoAlt ->
-            CopyText "Big Lottery Fund"
+            CopyText "Big Lottery logo"
 
         SupportersP3 ->
-            CopyText "Contemplating Action is a partnership with CAST - Centre for Acceleration of Social Technology."
-
-        SupportersP4 ->
             CopyText "The initial You Matter app which inspired Contemplating Action was part of Tech vs Abuse. This grant was funded through a joint funding initiative between the Tampon Tax Fund, a partnership between HM Government and Comic Relief, and the Big Lottery Fund."
 
+        SupportersP4 ->
+            CopyText "The original You Matter web app was developed by Neontribe and The Haven, together with women who have been victims of domestic abuse. The Haven is a Wolverhampton based charity which supports women and dependent children who are vulnerable to domestic violence, homelessness and abuse."
+
         NeontribeLogoAlt ->
-            CopyText "Neontribe"
+            CopyText "Neontribe logo"
 
         HavenLogoAlt ->
-            CopyText "The Haven Wolverhampton"
+            CopyText "The Haven Wolverhampton logo"
 
         SupportersP5 ->
-            CopyText "This website has been developed by Neontribe and The Haven, together with women who have been victims of domestic abuse. The Haven is a Wolverhampton based charity which supports women and dependent children who are vulnerable to domestic violence, homelessness and abuse."
+            CopyText "This web app was built by Neontribe and seAp, together with people who have used seAp’s health care complaints service."
 
         FooterSupportersText ->
             CopyText "Find out about our"
@@ -327,13 +325,13 @@ brandCopy key =
             CopyText "privacy policy"
 
         FooterRegisteredText ->
-            CopyText ""
+            CopyText "Reg. Charity No. 1080679"
 
         FooterCopyrightLink ->
             CopyWithLink
                 { textBefore = "© 2019 - "
-                , linkText = "Neontribe"
-                , destination = "https://www.neontribe.co.uk/"
+                , linkText = "seAp"
+                , destination = "https://www.seap.org.uk/"
                 , textAfter = ""
                 }
 
@@ -365,213 +363,255 @@ brandCopy key =
                 ]
 
         InfoOneName ->
-            CopyText "About the project"
+            CopyText "What happens when you contact us?"
 
         InfoOneSlug ->
-            CopyText "about"
+            CopyText "what-happens-when-you-contact-us"
 
         InfoOneIcon ->
-            CopyText "question-circle-o"
+            CopyText "info"
 
         InfoOneContent ->
-            CopyText "In 2017, The Haven Wolverhampton, worked with Neontribe and women who had been through domestic abuse. We co-designed a web app to encourage other women in that situation to seek support and advice. We want to find out if the structure of that app could be used by different organisations. We believe that reassuring people that their fears and challenges are shared could help them take early steps on a journey of change such as contacting a support service."
+            CopyText "Our trained helpline staff will listen to what has happened to you and offer you advice explain your choices on what you can do next. If you decide you want to complain, you can choose to use a self-help pack or to be contacted by our specialist advocates. They are experienced, trained workers who are there to help and support you through every step of your complaint about an NHS service. They can work with you by phone, by email or by meeting face to face. They will ensure your voice is heard."
 
         InfoTwoName ->
-            CopyText "Bite size information"
+            CopyText "What can I expect?"
 
         InfoTwoSlug ->
-            CopyText "bite-size-info"
+            CopyText "what-can-i-expect"
 
         InfoTwoIcon ->
-            CopyText "info-circle"
+            CopyText "question"
 
         InfoTwoContent ->
-            CopyText "We include bite size information relating to a small number of fears and barriers that are likely to be stopping people from taking the next step. Keeping the language simple we aim to be open and honest, with a reassuring tone. We resist the temptation to provide all the information people might need. Our goal is to offer just enough to help people reach out to support services. Other websites have excellent longer content."
+            CopySection
+            [ CopyText "We don’t promise to get you everything you want. We will always be clear with you about this. Complaining is not the same as taking legal action and you won’t get a financial reward. But we can work towards goals that could make a big difference to how you feel. Think about if you might like:"
+            , CopyList
+                [ CopyText "an apology so you know that other people accept that sometimes things do go wrong"
+                    , CopyText "an explanation so that you understand why something happened"
+                    , CopyText "a change to a service so that something never happens again"
+                    , CopyText "action to put things right so that you and others have better treatment in the future"
+                    , CopyText "answers to questions so that you understand why a decision was made"
+                    ]
+            , CopyText "Our team will help you work out what you can expect."
+            ]
 
         InfoThreeName ->
-            CopyText "Visual Storytelling"
+            CopyText "Will I be harming the NHS?"
 
         InfoThreeSlug ->
-            CopyText "visual-storytelling"
+            CopyText "am-i-harming-nhs"
 
         InfoThreeIcon ->
-            CopyText "pencil"
+            CopyText "hospital"
 
         InfoThreeContent ->
-            CopyText "Many organisations struggle with the same problem with stories. We know stories can be powerful, we want to use them for many reasons. Unfortunately people don’t always like to spend time reading them online. We believe that visual storytelling can change this. Contemplating Action has a budget for artists, to test whether this 4 image story format can encourage more people to read them."
+            CopyText "No. Not at all. It’s easy to feel that you don’t want to add to the NHS’s problems and feel bad for complaining. But the NHS wants people to report problems. They have a saying ‘complaints are a gift to the NHS’ because they show how it can get better. Even though the complaints process can seem hard, it’s worth it to make a difference. Our team can talk to you about how your complaint could help improve services."
 
         InfoFourName ->
-            CopyText "What is the survey?"
+            CopyText "Am I just making a fuss?"
 
         InfoFourSlug ->
-            CopyText "survey"
+            CopyText "am-i-making-a-fuss"
 
         InfoFourIcon ->
-            CopyText "check-square-o"
+            CopyText "users"
 
         InfoFourContent ->
-            CopyText "We would like you to take our survey. We want to understand whether staff in organisations who work most closely with people seeking support think this approach could work. We’re interested in your instincts as well as any evidence you might share. It will help us decide where to take the project next."
+            CopyText "Thinking about complaining for the first time can be really hard. You might be worried that your problem isn’t really important enough. You may feel embarrassed and not want to bother anyone. You might be blaming yourself for what went wrong. Lots of people feel like this. But all problems are important. If you or someone you love have been treated in a way that worries you then it is important enough. Contact us to talk through your situation. We can help you find a path that is right for you."
 
         InfoFiveName ->
-            CopyText "Can my organisation try this?"
+            CopyText "Will I be treated differently if I complain?"
 
         InfoFiveSlug ->
-            CopyText "try-this"
+            CopyText "will-i-be-treated-differently"
 
         InfoFiveIcon ->
-            CopyText "group"
+            CopyText "speech"
 
         InfoFiveContent ->
-            CopyText "We’re actively looking for partner charities interested in experimenting with this visual storytelling format. So if you have a helpline, webchat, messaging service or even a face to face service, we could work together on whether an app could help people connect to those services. We have small amounts of funding to support charities getting involved. Please show your interest by taking the survey."
+            CopyText "Deciding to take a complaint forward can be scary, especially if you are still receiving treatment. Lots of people worry that complaining will make things worse. The NHS is not allowed to act like that. There are standards that they must follow when they deal with complaints. So if you decide to make a complaint the NHS should still treat you fairly, politely and with respect. Your care and treatment should never be affected as a result. Our team can help you remind the NHS of these responsibilities."
 
         InfoSixName ->
-            CopyText "Who is involved in this project?"
+            CopyText "Is complaining a lot of work?"
 
         InfoSixSlug ->
-            CopyText "who-is-involved"
+            CopyText "what-does-complaining-entail"
 
         InfoSixIcon ->
-            CopyText "involved"
+            CopyText "clipboard"
 
         InfoSixContent ->
-            CopyText "This is a partnership between CAST - a charity driving social change through digital technology - and digital development agency Neontribe. It is one of a number of projects aimed at supporting civic and social organisations to grow confident in using digital tools to achieve their charitable objectives. It is possible thanks to The Haven, Wolverhampton sharing technology developed for and with the people they work with."
+            CopyText "Some complaints are simple and some are complicated. Sometimes the process can take a long time. But you are in control. If it becomes too much, you can drop a complaint at any time. You can also turn to our team for support at any time. They can help you make decisions, they can write additional letters to try and speed things up and they can just listen if you are finding it stressful. Many people decide that even though the process is long, the feeling they get when they receive an apology or an explanation is worth it."
 
         StoriesTitleH2 ->
             CopyText "Stories"
 
         StoriesTeaserMoreLink title ->
-            CopyText ("See " ++ title ++ "'s Story")
+            CopyText ("Read " ++ title ++ "'s Story")
 
         StoryCardH3 cardId ->
             CopyText ("Part " ++ String.fromInt cardId ++ " of 4")
 
         StoryCardStartJourneyPrompt ->
-            CopyText "Every story is different. Let us help you discover yours."
+            CopyText "Everyone's story is different, but you will find someone who can help you. Start your journey now."
 
         StoryNotFoundTitle ->
-            CopyText "Not found Title"
+            CopyText "Coming soon"
 
         StoryNotFoundTeaser ->
-            CopyText "Not found teaser"
+            CopyText "We're working on it"
 
         StoryNotFoundQuote ->
-            CopyText "Not Found Quote"
+            CopyText "Story coming soon."
 
         StoryNotFoundImageAlt ->
-            CopyText "Not found Image"
+            CopyText "Placeholder image"
 
         StoryNotFoundMessage ->
-            CopyText "Not found Message"
+            CopyText "Check back soon"
 
         StoryOneTitle ->
-            CopyText "Our Project"
+            CopyText "Diane"
 
         StoryOneTeaser ->
-            CopyText "This shows you how we believe shaping stories from real people can work so that they help people feel ready to take action"
+            CopyText "Diane felt her complaint about her husband’s treatment was badly handled, but a weight was lifted when she found an advocate."
 
         StoryOneTeaserImageAlt ->
-            CopyText "A man kneeling on the floor of a dark room with his head in his hands"
+            CopyText "✨"
 
         StoryOne1Quote ->
-            CopyText "The story starts with some background. It gives us key pieces of information that make this person’s story clear and relatable. It tends to deal with facts about the situation they were in rather than their feelings. It is always a situation that clearly needed to change."
+            CopyText
+                """When my husband was first diagnosed with cancer, the treatment was amazing, he was in
+                chemotherapy within 36 hours. But later, an A&E visit went very badly when protocols and
+                procedures were ignored. We put in a complaint to the Health Care Trust, and one sentence
+                in their reply made us so angry."""
 
         StoryOne1ImageAlt ->
-            CopyText "A man is kneeling on the floor of a dark room with his head in his hands"
+            CopyText "✨"
 
         StoryOne1Message ->
-            CopyText ""
+            CopyText "They said my husband’s treatment had been appropriate but we knew the protocol for neutropenic sepsis."
 
         StoryOne2Quote ->
-            CopyText "Next the story moves on a little. It does one of two things. Either it tells us about a specific incident that began a drive to change things, or it explores the person’s fears and other things that were holding them back. This section focuses on emotions and helps us connect with the person’s story."
+            CopyText
+                """The leaflet about an advocate came with the reply. I had spoken to my husband. “What do
+                you reckon, it’s a charity, we don’t have to but shall we give it a go?”. There were lots
+                of forms but it was all very smooth. It was actually the week of my husband’s funeral when
+                the worker called to arrange the first meeting, but I thought “I really do want to get on
+                with this”."""
 
         StoryOne2ImageAlt ->
-            CopyText "The man looks up a long staircase with a locked door at the top"
+            CopyText "✨"
 
         StoryOne2Message ->
-            CopyText "This bar is used to give a little extra insight into how the person was feeling."
+            CopyText "You feel like you can’t say anything, it's the medical profession, they will close ranks against you."
 
         StoryOne3Quote ->
-            CopyText "Here the story starts to change for the better. The person becomes able to take a positive step and get some support. The story tells us a little about what happened, how they managed to take the step and how they felt."
+            CopyText
+                """I had this real sense of relief that I was going to see somebody and when I met Susan,
+                our advocate, it was so reassuring. She handed me a box of tissues and put together a letter
+                in my name. Later, before the response meeting we met and she went through it with me, asking
+                me which key things I wanted to remember to tell them."""
 
         StoryOne3ImageAlt ->
-            CopyText "The man starts climbing the stairs to reach a hand holding out a key."
+            CopyText "✨"
 
         StoryOne3Message ->
-            CopyText ""
+            CopyText "You do worry that you might end up with a marker against your name."
 
         StoryOne4Quote ->
-            CopyText "The final section of the story is about hope. It shows that taking a chance can be a positive choice. However it doesn’t suggest that the person’s life is now perfect. It is designed to encourage others to believe they could make a move to a more hopeful place too. It takes care not to sound out of reach."
+            CopyText
+                """When we got to the response meeting it was amicable. They made big changes to the
+                neutropenic sepsis process. Nurses can administer the intravenous drugs now, not just
+                doctors and there are posters all over the hospital. I just felt like an enormous weight
+                had been lifted - that’s all we’d wanted, them to admit that it wasn’t right."""
 
         StoryOne4ImageAlt ->
-            CopyText "The door is open and the lock is on the floor. The man is outside in a bright and sunny environment holding onto the key."
+            CopyText "✨"
 
         StoryOne4Message ->
-            CopyText "sometimes the story highlights a worry that remains, and how the person is coping with it"
+            CopyText "I met someone who said “it’s thanks to you and your husband that I’m alive”."
 
         StoryTwoTitle ->
-            CopyText "The Haven"
+            CopyText "Lara"
 
         StoryTwoTeaser ->
-            CopyText "This is one of the six stories created for The Haven’s app. The story uses Two’s words but the names have been changed, and the story has been shaped to help others."
+            CopyText "Lots of younger people don’t make formal complaints. Lara’s story shows what could happen if they did."
 
         StoryTwoTeaserImageAlt ->
-            CopyText "A pregnant woman wrapped in chains"
+            CopyText "✨"
 
         StoryTwo1Quote ->
-            CopyText """I was born in Senegal and had lived in Spain as well as the UK and I couldn’t
-            speak English. My husband became abusive after I got pregnant with our first
-            child. For years I suffered so many different things."""
+            CopyText
+                """I hate hospitals and I hate going to the doctor. I’ve had depression since
+                I was a teenager and it took forever to get any treatment. So I didn’t want to
+                go to A&E. But I had horrendous stomach cramps and I was throwing up, and I couldn’t
+                get my temperature to go down and late one night, my friends convinced me to go."""
 
         StoryTwo1ImageAlt ->
-            CopyText "A pregnant woman wrapped in chains"
+            CopyText "✨"
 
         StoryTwo1Message ->
             CopyText ""
 
         StoryTwo2Quote ->
-            CopyText """I wanted to leave, but my husband told me without him I would be sent back to
-            Africa. I was completely dependent on my husband, I did not see any way out of
-            my situation."""
+            CopyText
+                """I knew I’d have to wait. But I didn’t expect the first nurse who saw me to
+                lecture me about drinking and tell me “I’d probably got an STD”. I got angry
+                and told her she shouldn’t talk shit about someone she didn’t know like that
+                and then she cussed at me and left. Eventually I got seen by a Doctor and it
+                turned out I had appendicitis."""
 
         StoryTwo2ImageAlt ->
-            CopyText "A pregnant woman chained to her husband"
+            CopyText "✨"
 
         StoryTwo2Message ->
-            CopyText "I did not know my rights in the UK and had no money but soon I discovered I had choices."
+            CopyText "I forgot about the first bit of the visit for a while."
 
         StoryTwo3Quote ->
-            CopyText """One day I broke down at my health care class. My teacher was so supportive. She
-            told me about The Haven and they found me a support worker who spoke Spanish. They
-            talked to social services for me and found me an immigration solicitor."""
+            CopyText
+                """When I was recovering I started chatting online about how awful it was, and
+                asking if people thought it was because I was female, young and black that I got
+                treated like that. I wasn’t going to do anything formal. But my friend Alisha’s
+                mum worked in a different A&E and basically Alisha spent ages explaining why I
+                should try calling the advocacy and complaints service."""
 
         StoryTwo3ImageAlt ->
-            CopyText "A woman crying at a desk"
+            CopyText "✨"
 
         StoryTwo3Message ->
             CopyText ""
 
         StoryTwo4Quote ->
-            CopyText """I have a house now, with my children, and away from my abusive husband. My
-            solicitor is helping me with immigration documents and divorce papers. For the
-            first time in a long time I can sleep and look forward to the future."""
+            CopyText
+                """I had to phone up for forms to fill in. And I was pretty stressed
+                about getting them right - so I was glad Alisha knew enough to help me.
+                It took ages to hear anything back, but when I did they told me they
+                were adding new training on diversity and talking about health with
+                young people. That made me feel good."""
 
         StoryTwo4ImageAlt ->
-            CopyText "A smiling woman with two children"
+            CopyText "✨"
 
         StoryTwo4Message ->
-            CopyText ""
+            CopyText "It felt like my effort might make a difference for other people."
 
         StoryThreeTitle ->
-            CopyText "✨"
+            CopyText "Amy"
 
         StoryThreeTeaser ->
-            CopyText "✨"
+            CopyText "Amy was angry with how she was treated whilst in psychiatric care but didn’t know what would make it better until she worked with an advocate."
 
         StoryThreeTeaserImageAlt ->
             CopyText "✨"
 
         StoryThree1Quote ->
-            CopyText """✨"""
+            CopyText
+                """I was very angry about what happened when I was in psychiatric care.
+                You don’t need to know the details, but no one should ever be treated
+                like that. And I knew about advocates, because there was one in the hospital,
+                and she gave me information about who could help me when I left."""
 
         StoryThree1ImageAlt ->
             CopyText "✨"
@@ -580,31 +620,107 @@ brandCopy key =
             CopyText ""
 
         StoryThree2Quote ->
-            CopyText """✨"""
+            CopyText
+                """I didn’t know what I wanted. I didn’t know what would make it better.
+                It was easy for me to think “what’s the point, nobody listens, nothing changes“.
+                But I didn’t want to let it go, so I phoned up and filled in the forms.
+                And when I finally met Sam, my advocate, I quickly knew she was the right
+                person to help me."""
 
         StoryThree2ImageAlt ->
             CopyText "✨"
 
         StoryThree2Message ->
-            CopyText "✨"
+            CopyText "I’m not shy about complaining but I needed help navigating the system."
 
         StoryThree3Quote ->
-            CopyText """✨"""
+            CopyText
+                """I never once felt I was wasting her time. She listened. She believed me.
+                And she did all the things she said she would. She kept redrafting a letter
+                until I was 100% happy with it. I was sure that if I’d just written to the
+                trust I would have just been dismissed. This way, I knew at the very least
+                it was being logged."""
 
         StoryThree3ImageAlt ->
             CopyText "✨"
 
         StoryThree3Message ->
-            CopyText ""
+            CopyText "Advocates seem to have power."
 
         StoryThree4Quote ->
-            CopyText """✨"""
+            CopyText
+                """In the end, after months, Sam managed to get a meeting set up. I got
+                an apology. And it turns out that’s what I’d wanted, an apology. Being believed.
+                I didn’t know that was what I wanted at the beginning, but it felt good to get it.
+                It meant I could move on."""
 
         StoryThree4ImageAlt ->
             CopyText "✨"
 
         StoryThree4Message ->
             CopyText ""
+
+        StoryFourTitle ->
+            CopyText "Lucille"
+
+        StoryFourTeaser ->
+            CopyText "Lucille had never needed to complain about her GP surgery, but when her new medication was messed about she had to speak up."
+
+        StoryFourTeaserImageAlt ->
+            CopyText "✨"
+
+        StoryFour1Quote ->
+            CopyText
+                """My surgery is in a little village, I’ve been with them for 9 years and had never
+                had to make a complaint or get cross with them. But I won’t let the status quo stand
+                when things are unfair. So when I was messed around getting the new medication I needed
+                to go about my life normally I did complain."""
+
+        StoryFour1ImageAlt ->
+            CopyText "✨"
+
+        StoryFour1Message ->
+            CopyText ""
+
+        StoryFour2Quote ->
+            CopyText
+                """I wanted to know when my medication would be ready, but they have a policy where you
+                can’t phone them. So I left messages. But they said they were too busy to listen to them
+                - it felt like they were incompetent. I went in and I did get the tablets, but the staff
+                member was quite rude. I told them I wanted an explanation from the practice manager or
+                I would complain."""
+
+        StoryFour2ImageAlt ->
+            CopyText "✨"
+
+        StoryFour2Message ->
+            CopyText "I think they were snowed under and the GP’s didn’t know what was going on."
+
+        StoryFour3Quote ->
+            CopyText
+                """I heard nothing from the practice manager. I knew about advocates from leaflets so
+                I called and started the process of forms and agreements. They told me it would be quite
+                a while before someone was free to help me, but I could call their contact centre while
+                I was waiting."""
+
+        StoryFour3ImageAlt ->
+            CopyText "✨"
+
+        StoryFour3Message ->
+            CopyText "They were friendly and helpful."
+
+        StoryFour4Quote ->
+            CopyText
+                """The advocate wrote 3 or 4 letters for me, and it went on for about six months. We got a
+                meeting where I could talk about what happened and how it felt. I think it was just mismanagement.
+                I think there are more staff and the pressure has been taken off a bit now."""
+
+        StoryFour4ImageAlt ->
+            CopyText "✨"
+
+        StoryFour4Message ->
+            CopyText "A meeting is a good way to move on. I can keep using my little village surgery."
+
 
 
 relatedInfo : Int -> List Int
@@ -618,6 +734,9 @@ relatedInfo storyId =
 
         3 ->
             [ 1, 4 ]
+
+        4 ->
+            [ 2, 5 ]
 
         _ ->
             [ 1 ]
