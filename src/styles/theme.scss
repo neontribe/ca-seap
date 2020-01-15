@@ -128,6 +128,16 @@ h5 {
   color: $text-colour;
 }
 
+.icon-arrow-right {
+  /* content: "\e901"; */
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-left: 14px solid $primary-colour;
+    border-bottom: 7px solid transparent;
+    display: inline-block;
+}
+
 /* ------------------------------
 
    Title
@@ -369,7 +379,7 @@ h5 {
   }
 
   .icon-arrow-right {
-    color: $interaction-colour;
+    border-left-color: $interaction-colour;
   }
 }
 
@@ -381,6 +391,10 @@ h5 {
 .card--with-icon, .card--alternate {
   border: 2px solid $icon-background;
   border-radius: 10px;
+}
+
+.card--alternate.info > span:last-of-type{
+  display: none;
 }
 
 /* ------------------------------
