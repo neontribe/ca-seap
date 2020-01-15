@@ -160,6 +160,10 @@ h5 {
   }
 }
 
+.link.link--stateless {
+  border-bottom: none;
+}
+
 .link--plain {
   color: $primary-colour;
   border-bottom-color: transparent;
@@ -198,7 +202,6 @@ h5 {
 .button {
   color: $white-pure;
   background-color: $interaction-colour;
-  border-radius: 5em;
   font-size: 1.125rem;
   font-weight: bold;
   text-decoration: none;
@@ -375,7 +378,7 @@ h5 {
   color: $secondary-colour;
 }
 
-.card--with-icon {
+.card--with-icon, .card--alternate {
   border: 2px solid $icon-background;
   border-radius: 10px;
 }
