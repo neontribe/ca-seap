@@ -136,6 +136,7 @@ h5 {
     border-left: 14px solid $primary-colour;
     border-bottom: 7px solid transparent;
     display: inline-block;
+    vertical-align: middle;
 }
 
 /* ------------------------------
@@ -225,11 +226,11 @@ h5 {
 }
 
 .button--cookie {
-  background-color: $primary-colour;
+  background-color: $secondary-colour;
   &:active,
   &:focus,
   &:hover {
-    background-color: #f366ba;
+    background-color: $primary-colour;
     color: $white-pure;
   }
 }
