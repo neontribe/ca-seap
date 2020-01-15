@@ -1,8 +1,8 @@
 # Picture Stories and Info
 
 ## Site URLs
-- [Staging](https://neontribe.github.io/contemplating-action/)
-- [Production](https://www.contemplatingaction.org.uk)
+- [Staging](https://neontribe.github.io/ca-seap)
+- [Production TBC](#)
 
 ### Elm with Webpack and Yarn
 - `elm.json` for elm packages
@@ -41,13 +41,4 @@ Encrypted vars can be added to `.travis.yml` using the travis cli tools as decri
 Currently configured with GITHUB_TOKEN value.
 
 
-### To Production (Heroku)
-- You will need a Heroku account with appropriate permissions
-- We're using the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) for deploys. You will need to install it.
-- First time: Login with `heroku login -i`
-- First time: Add the Heroku remote to your local repo with `heroku git:remote -a contemplating-action`
-- `git checkout <release-branch>`
-- `git tag v<semantic version number>`
-- `git push origin --tags`
-- `git push heroku <release-branch>:master`
-- Todo automate on tagged release
+### To Production (TBC)
