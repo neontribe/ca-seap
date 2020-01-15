@@ -210,7 +210,7 @@ h5 {
 .button:active,
 .button:focus,
 .button:hover {
-  background-color: $tertiary-colour;
+  background-color: $section-background;
   color: $secondary-colour;
 }
 
@@ -219,20 +219,20 @@ h5 {
   &:active,
   &:focus,
   &:hover {
-    background-color: $secondary-colour;
+    background-color: #f366ba;
     color: $white-pure;
   }
 }
 
 .button--alternate {
-  color: $white-pure;
   background-color: $interaction-colour;
+  color: $white-pure;
 }
 
 .button--alternate:active,
 .button--alternate:focus,
 .button--alternate:hover {
-  background-color: $tertiary-colour;
+  background-color: $section-background;
 }
 
 /* ------------------------------
