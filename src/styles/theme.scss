@@ -129,10 +129,6 @@ h5 {
 }
 
 .icon-arrow-right {
-    border-top: 7px solid transparent;
-    border-left: 14px solid $primary-colour;
-    border-bottom: 7px solid transparent;
-    display: inline-block;
     vertical-align: middle;
 }
 
@@ -378,7 +374,7 @@ h5 {
   }
 
   .icon-arrow-right {
-    border-left-color: $interaction-colour;
+    color: $interaction-colour;
   }
 }
 
@@ -436,12 +432,6 @@ h5 {
    Story
 
 ------------------------------ */
-
-// Downward triangle below card
-.story:not(:last-child)::after {
-  border-top: 45px solid $white;
-}
-
 .story--message {
   background-color: $section-background;
   color: $text-colour;
