@@ -25,7 +25,7 @@ src: url('./fonts/frutiger-lt-65-bold.woff') format('woff');
 ------------------------------ */
 
 $pink: #EC008C;
-$pink-light: rgba(253, 229, 243, 0.5);
+$pink-light: rgba(253, 229, 243, 0.8);
 $grey: #767676;
 $grey-light: #f1f1f1;
 $yellow: #FAA81C;
@@ -128,6 +128,10 @@ h5 {
   color: $text-colour;
 }
 
+.icon-arrow-right {
+    vertical-align: middle;
+}
+
 /* ------------------------------
 
    Title
@@ -158,6 +162,10 @@ h5 {
   &:active {
     color: $interaction-colour;
   }
+}
+
+.link.link--stateless {
+  border-bottom: none;
 }
 
 .link--plain {
@@ -198,7 +206,6 @@ h5 {
 .button {
   color: $white-pure;
   background-color: $interaction-colour;
-  border-radius: 5em;
   font-size: 1.125rem;
   font-weight: bold;
   text-decoration: none;
@@ -207,29 +214,29 @@ h5 {
 .button:active,
 .button:focus,
 .button:hover {
-  background-color: $tertiary-colour;
+  background-color: $section-background;
   color: $secondary-colour;
 }
 
 .button--cookie {
-  background-color: $primary-colour;
+  background-color: $secondary-colour;
   &:active,
   &:focus,
   &:hover {
-    background-color: $secondary-colour;
+    background-color: $primary-colour;
     color: $white-pure;
   }
 }
 
 .button--alternate {
-  color: $white-pure;
   background-color: $interaction-colour;
+  color: $white-pure;
 }
 
 .button--alternate:active,
 .button--alternate:focus,
 .button--alternate:hover {
-  background-color: $tertiary-colour;
+  background-color: $section-background;
 }
 
 /* ------------------------------
@@ -262,6 +269,7 @@ h5 {
 
 .nav-icon {
   color: $white-pure;
+  vertical-align: baseline;
 }
 
 .nav-item--text-only,
@@ -375,9 +383,13 @@ h5 {
   color: $secondary-colour;
 }
 
-.card--with-icon {
+.card--with-icon, .card--alternate {
   border: 2px solid $icon-background;
   border-radius: 10px;
+}
+
+.card--alternate.info > span:last-of-type {
+  display: none;
 }
 
 /* ------------------------------
@@ -420,12 +432,6 @@ h5 {
    Story
 
 ------------------------------ */
-
-// Downward triangle below card
-.story:not(:last-child)::after {
-  border-top: 45px solid $white;
-}
-
 .story--message {
   background-color: $section-background;
   color: $text-colour;
