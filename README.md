@@ -27,7 +27,7 @@ We're using [elm-test](https://github.com/rtfeldman/node-test-runner/releases/ta
 ## Code Style
 We're using [elm-format](https://github.com/avh4/elm-format) to standardise formatting.
 The output of different versions of elm-format varies significantly, so please use version `0.8.1`.
-- e.g. `yarn format src` to run over all src files from the root of the site
+- e.g. `yarn format src` from the root of site to format all files in `src`
 
 ## Deployment
 
