@@ -31,6 +31,9 @@
 .icon-phone:before {
   content: "\e900";
 }
+.icon-arrow-right:before {
+  content: "";
+}
 .icon-users:before {
   content: "\e902";
 }
