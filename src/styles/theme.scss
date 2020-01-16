@@ -129,9 +129,7 @@ h5 {
 }
 
 .icon-arrow-right {
-  /* content: "\e901"; */
-    width: 0;
-    height: 0;
+    content: "";
     border-top: 7px solid transparent;
     border-left: 14px solid $primary-colour;
     border-bottom: 7px solid transparent;
@@ -394,7 +392,7 @@ h5 {
   border-radius: 10px;
 }
 
-.card--alternate.info > span:last-of-type{
+.card--alternate.info > span:last-of-type {
   display: none;
 }
 
