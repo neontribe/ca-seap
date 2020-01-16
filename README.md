@@ -17,17 +17,17 @@
 ￼
 ## Development
 ￼- `yarn` to install
-￼- Watch files and serve to `localhost:3000` with `yarn dev`
+￼- `yarn dev` to watch files and serve to `localhost:3000`
 ￼- Only brand specific files will be commited to this repo when edited. (see `.gitignore`)
 
 ## Tests
 We're using [elm-test](https://github.com/rtfeldman/node-test-runner/releases/tag/0.18.12) for testing.
-- Run tests with `yarn test` from root of site
+- `yarn test` from root of site to run tests
 
 ## Code Style
 We're using [elm-format](https://github.com/avh4/elm-format) to standardise formatting.
 The output of different versions of elm-format varies significantly, so please use version `0.8.1`.
-- e.g. run over all src files `yarn format src` from the root of the site
+- e.g. `yarn format src` to run over all src files from the root of the site
 
 ## Deployment
 
