@@ -1,6 +1,7 @@
 /*
 !.github
 !.gitignore
+!.nvmrc
 !.travis.yml
 !build.sh
 !LICENSE
