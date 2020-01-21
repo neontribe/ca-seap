@@ -550,7 +550,7 @@ brandCopy key =
                 get my temperature to go down and late one night, my friends convinced me to go."""
 
         StoryTwo1ImageAlt ->
-            CopyText "Illustration of woman holding her stomack and sweating on her forehead"
+            CopyText "Illustration of woman holding her stomach and sweating on her forehead"
 
         StoryTwo1Message ->
             CopyText ""
