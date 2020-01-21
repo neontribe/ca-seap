@@ -478,7 +478,7 @@ brandCopy key =
             CopyText "Diane felt her complaint about her husband’s treatment was badly handled, but a weight was lifted when she found an advocate."
 
         StoryOneTeaserImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of two women holding hands with a background of written signs urging one to know their rights and check the signs of a problem"
 
         StoryOne1Quote ->
             CopyText
@@ -540,7 +540,7 @@ brandCopy key =
             CopyText "Lots of younger people don’t make formal complaints. Lara’s story shows what could happen if they did."
 
         StoryTwoTeaserImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of a woman sitting at her desk taking notes"
 
         StoryTwo1Quote ->
             CopyText
@@ -604,7 +604,7 @@ brandCopy key =
             CopyText "Amy was angry with how she was treated whilst in psychiatric care but didn’t know what would make it better until she worked with an advocate."
 
         StoryThreeTeaserImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of 4 persons sitting next to each other, arms folded, with their backs to a woman sitting with a phone and her hands in the air like she's given up"
 
         StoryThree1Quote ->
             CopyText
@@ -667,7 +667,7 @@ brandCopy key =
             CopyText "Lucille had never needed to complain about her GP surgery, but when her new medication was messed about she had to speak up."
 
         StoryFourTeaserImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of a young woman speaking on her phone"
 
         StoryFour1Quote ->
             CopyText
