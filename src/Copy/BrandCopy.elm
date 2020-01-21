@@ -515,7 +515,7 @@ brandCopy key =
                 me which key things I wanted to remember to tell them."""
 
         StoryOne3ImageAlt ->
-            CopyText "Illustration of a woman holding various stationery items"
+            CopyText "Illustration of a happy woman holding a box of tissues and letter writing materials"
 
         StoryOne3Message ->
             CopyText "You do worry that you might end up with a marker against your name."
@@ -564,7 +564,7 @@ brandCopy key =
                 turned out I had appendicitis."""
 
         StoryTwo2ImageAlt ->
-            CopyText "Illustration of a nurse speaking to a woman vices"
+            CopyText "Illustration of a nurse speaking to a woman about contraception and drinking"
 
         StoryTwo2Message ->
             CopyText "I forgot about the first bit of the visit for a while."
@@ -628,7 +628,7 @@ brandCopy key =
                 person to help me."""
 
         StoryThree2ImageAlt ->
-            CopyText "Illustration of 4 persons sitting next to each other, hands folded, with their back to a woman with a phone next to her"
+            CopyText "Illustration of 4 persons sitting next to each other, arms folded, with their backs to a woman sitting with a phone and her hands in the air like she's given up"
 
         StoryThree2Message ->
             CopyText "I’m not shy about complaining but I needed help navigating the system."
@@ -642,7 +642,7 @@ brandCopy key =
                 it was being logged."""
 
         StoryThree3ImageAlt ->
-            CopyText "Illustration of a woman talking to a man taking notes and listening to her with two boats in the background, one titled apology and the other complaint"
+            CopyText "Illustration of a shrugging woman, talking to a man who is taking notes and listening to her with two boats in the background, one titled apology and the other complaint"
 
         StoryThree3Message ->
             CopyText "Advocates seem to have power."
@@ -655,7 +655,7 @@ brandCopy key =
                 It meant I could move on."""
 
         StoryThree4ImageAlt ->
-            CopyText "Illustration of a woman on a couch holding a pillow with sorry written on it"
+            CopyText "Illustration of a woman on a couch hugging a pillow with the word sorry written on it"
 
         StoryThree4Message ->
             CopyText ""
@@ -704,7 +704,7 @@ brandCopy key =
                 I was waiting."""
 
         StoryFour3ImageAlt ->
-            CopyText "Illustration of a pencil, paper, a booklet and a beverage on a desk"
+            CopyText "Illustration of a pencil, paper, a leaflet and a hot beverage on a desk"
 
         StoryFour3Message ->
             CopyText "They were friendly and helpful."
