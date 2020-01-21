@@ -478,7 +478,7 @@ brandCopy key =
             CopyText "Diane felt her complaint about her husband’s treatment was badly handled, but a weight was lifted when she found an advocate."
 
         StoryOneTeaserImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of two women holding hands with a background of written signs urging one to know their rights and check the signs of a problem"
 
         StoryOne1Quote ->
             CopyText
@@ -488,7 +488,7 @@ brandCopy key =
                 in their reply made us so angry."""
 
         StoryOne1ImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of a woman caring for a sick man and a man comforting a woman"
 
         StoryOne1Message ->
             CopyText "They said my husband’s treatment had been appropriate but we knew the protocol for neutropenic sepsis."
@@ -502,7 +502,7 @@ brandCopy key =
                 with this”."""
 
         StoryOne2ImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of 4 doctors looking over a woman sitting on a pile of papers"
 
         StoryOne2Message ->
             CopyText "You feel like you can’t say anything, it's the medical profession, they will close ranks against you."
@@ -515,7 +515,7 @@ brandCopy key =
                 me which key things I wanted to remember to tell them."""
 
         StoryOne3ImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of a happy woman holding a box of tissues and letter writing materials"
 
         StoryOne3Message ->
             CopyText "You do worry that you might end up with a marker against your name."
@@ -528,7 +528,7 @@ brandCopy key =
                 had been lifted - that’s all we’d wanted, them to admit that it wasn’t right."""
 
         StoryOne4ImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of two women holding hands with a background of written signs urging one to know their rights and check the signs of a problem"
 
         StoryOne4Message ->
             CopyText "I met someone who said “it’s thanks to you and your husband that I’m alive”."
@@ -540,7 +540,7 @@ brandCopy key =
             CopyText "Lots of younger people don’t make formal complaints. Lara’s story shows what could happen if they did."
 
         StoryTwoTeaserImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of a woman sitting at her desk taking notes"
 
         StoryTwo1Quote ->
             CopyText
@@ -550,7 +550,7 @@ brandCopy key =
                 get my temperature to go down and late one night, my friends convinced me to go."""
 
         StoryTwo1ImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of woman holding her stomach and sweating on her forehead"
 
         StoryTwo1Message ->
             CopyText ""
@@ -564,7 +564,7 @@ brandCopy key =
                 turned out I had appendicitis."""
 
         StoryTwo2ImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of a nurse speaking to a woman about contraception and drinking"
 
         StoryTwo2Message ->
             CopyText "I forgot about the first bit of the visit for a while."
@@ -578,7 +578,7 @@ brandCopy key =
                 should try calling the advocacy and complaints service."""
 
         StoryTwo3ImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of a woman speaking on her phone and two hands texting on another phone"
 
         StoryTwo3Message ->
             CopyText ""
@@ -592,7 +592,7 @@ brandCopy key =
                 young people. That made me feel good."""
 
         StoryTwo4ImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of a woman sitting at her desk taking notes while looking at her computer screen"
 
         StoryTwo4Message ->
             CopyText "It felt like my effort might make a difference for other people."
@@ -604,7 +604,7 @@ brandCopy key =
             CopyText "Amy was angry with how she was treated whilst in psychiatric care but didn’t know what would make it better until she worked with an advocate."
 
         StoryThreeTeaserImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of 4 persons sitting next to each other, arms folded, with their backs to a woman sitting with a phone and her hands in the air like she's given up"
 
         StoryThree1Quote ->
             CopyText
@@ -614,7 +614,7 @@ brandCopy key =
                 and she gave me information about who could help me when I left."""
 
         StoryThree1ImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of a man handing over a paper to a woman about to leave a room"
 
         StoryThree1Message ->
             CopyText ""
@@ -628,7 +628,7 @@ brandCopy key =
                 person to help me."""
 
         StoryThree2ImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of 4 persons sitting next to each other, arms folded, with their backs to a woman sitting with a phone and her hands in the air like she's given up"
 
         StoryThree2Message ->
             CopyText "I’m not shy about complaining but I needed help navigating the system."
@@ -642,7 +642,7 @@ brandCopy key =
                 it was being logged."""
 
         StoryThree3ImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of a shrugging woman, talking to a man who is taking notes and listening to her with two boats in the background, one titled apology and the other complaint"
 
         StoryThree3Message ->
             CopyText "Advocates seem to have power."
@@ -655,7 +655,7 @@ brandCopy key =
                 It meant I could move on."""
 
         StoryThree4ImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of a woman on a couch hugging a pillow with the word sorry written on it"
 
         StoryThree4Message ->
             CopyText ""
@@ -667,7 +667,7 @@ brandCopy key =
             CopyText "Lucille had never needed to complain about her GP surgery, but when her new medication was messed about she had to speak up."
 
         StoryFourTeaserImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of a young woman speaking on her phone"
 
         StoryFour1Quote ->
             CopyText
@@ -677,7 +677,7 @@ brandCopy key =
                 to go about my life normally I did complain."""
 
         StoryFour1ImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of a young woman speaking on her phone"
 
         StoryFour1Message ->
             CopyText ""
@@ -691,7 +691,7 @@ brandCopy key =
                 I would complain."""
 
         StoryFour2ImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of a house with a sign Village Surgery above the entry door"
 
         StoryFour2Message ->
             CopyText "I think they were snowed under and the GP’s didn’t know what was going on."
@@ -704,7 +704,7 @@ brandCopy key =
                 I was waiting."""
 
         StoryFour3ImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of a pencil, paper, a leaflet and a hot beverage on a desk"
 
         StoryFour3Message ->
             CopyText "They were friendly and helpful."
@@ -716,7 +716,7 @@ brandCopy key =
                 I think there are more staff and the pressure has been taken off a bit now."""
 
         StoryFour4ImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of man and a woman talking to each other while sitting on armchairs"
 
         StoryFour4Message ->
             CopyText "A meeting is a good way to move on. I can keep using my little village surgery."
