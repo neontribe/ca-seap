@@ -28,7 +28,7 @@ var Elm = require('./Main.elm');
 var app = Elm.Elm.Main.init({});
 
 app.ports.updateAnalyticsPage.subscribe(function (page) {
-    gtag('config', 'UA-30970110-10', { 'page_path': page });
+    gtag('config', 'UA-157133795-1', { 'page_path': page });
 });
 
 // Todo make sure multiple events are recording with same category/ action.
