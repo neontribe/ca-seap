@@ -372,7 +372,7 @@ brandCopy key =
             CopyText "info"
 
         InfoOneContent ->
-            CopyText "Our trained helpline staff will listen to what has happened to you and offer you advice explain your choices on what you can do next. If you decide you want to complain, you can choose to use a self-help pack or to be contacted by our specialist advocates. They are experienced, trained workers who are there to help and support you through every step of your complaint about an NHS service. They can work with you by phone, by email or by meeting face to face. They will ensure your voice is heard."
+            CopyText "Our trained helpline staff will listen to what has happened to you and offer you advice and explain your choices on what you can do next. If you decide you want to complain, you can choose to use a self-help pack or to be contacted by our specialist advocates. They are experienced, trained workers who are there to help and support you through every step of your complaint about an NHS service. They can work with you by phone, by email or by meeting face to face. They will ensure your voice is heard."
 
         InfoTwoName ->
             CopyText "What can I expect?"
@@ -491,13 +491,13 @@ brandCopy key =
             CopyText "Illustration of a woman caring for a sick man and a man comforting a woman"
 
         StoryOne1Message ->
-            CopyText "They said my husband’s treatment had been appropriate but we knew the protocol for neutropenic sepsis."
+            CopyText "They said my husband’s treatment had been appropriate but we knew the protocol."
 
         StoryOne2Quote ->
             CopyText
                 """The leaflet about an advocate came with the reply. I had spoken to my husband. “What do
                 you reckon, it’s a charity, we don’t have to but shall we give it a go?”. There were lots
-                of forms but it was all very smooth. It was actually the week of my husband’s funeral when
+                of forms but it was all very smooth. There was a wait, so it was actually the week of my husband’s funeral when
                 the worker called to arrange the first meeting, but I thought “I really do want to get on
                 with this”."""
 
@@ -523,7 +523,7 @@ brandCopy key =
         StoryOne4Quote ->
             CopyText
                 """When we got to the response meeting it was amicable. They made big changes to the
-                neutropenic sepsis process. Nurses can administer the intravenous drugs now, not just
+                process for this condition. Nurses can administer the intravenous drugs now, not just
                 doctors and there are posters all over the hospital. I just felt like an enormous weight
                 had been lifted - that’s all we’d wanted, them to admit that it wasn’t right."""
 
@@ -674,7 +674,7 @@ brandCopy key =
                 """My surgery is in a little village, I’ve been with them for 9 years and had never
                 had to make a complaint or get cross with them. But I won’t let the status quo stand
                 when things are unfair. So when I was messed around getting the new medication I needed
-                to go about my life normally I did complain."""
+                to go about my life normally, I did complain."""
 
         StoryFour1ImageAlt ->
             CopyText "Illustration of a young woman speaking on her phone"
@@ -711,7 +711,7 @@ brandCopy key =
 
         StoryFour4Quote ->
             CopyText
-                """The advocate wrote 3 or 4 letters for me, and it went on for about six months. We got a
+                """The advocate wrote 3 or 4 letters for me, and it went on for about 6 months. We got a
                 meeting where I could talk about what happened and how it felt. I think it was just mismanagement.
                 I think there are more staff and the pressure has been taken off a bit now."""
 
