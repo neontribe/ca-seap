@@ -17,7 +17,7 @@
 ￼
 ## Development
 - `yarn` to install
-￼- `yarn dev` to watch files and serve to `localhost:3000`
+- `yarn dev` to watch files and serve to `localhost:3000`
 - Only brand specific files will be commited to this repo when edited. (see `.gitignore`)
 
 ## Tests
