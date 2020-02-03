@@ -12,13 +12,13 @@
 - `src` - the app source files
 
 ## Installation
-￼- You will need `elm@0.19`, `node` and `yarn`. Follow the official install instructions.
-￼- You will need some files from the `github.com/neontribe/contemplating-action` project. Get them by running `bash build.sh`. The build script will copy and install the necessary files for the project.
+- You will need `elm@0.19`, `node` and `yarn`. Follow the official install instructions.
+- You will need some files from the `github.com/neontribe/contemplating-action` project. Get them by running `bash build.sh`. The build script will copy and install the necessary files for the project.
 ￼
 ## Development
-￼- `yarn` to install
+- `yarn` to install
 ￼- `yarn dev` to watch files and serve to `localhost:3000`
-￼- Only brand specific files will be commited to this repo when edited. (see `.gitignore`)
+- Only brand specific files will be commited to this repo when edited. (see `.gitignore`)
 
 ## Tests
 We're using [elm-test](https://github.com/rtfeldman/node-test-runner/releases/tag/0.18.12) for testing.
