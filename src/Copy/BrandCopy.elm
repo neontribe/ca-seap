@@ -121,127 +121,169 @@ brandCopy key =
 
         HomeP1 ->
             CopySection
-            [ CopyText "When something goes wrong and you feel like the NHS has let you down it can be hard. You have a right to complain and the NHS needs your feedback in order to improve their service. Call seAp for free information about getting your voice heard and other organisations that can help."
-            , CopyText "If there are parts of your complaint you cannot do for yourself, you can ask for one of the seAp team to be your advocate. They will listen to you, support you to speak for yourself, and help you to make choices. They can also write letters for you, help you in complaint meetings, and talk to other people for you if necessary."
-            ]
+                [ CopyText "When something goes wrong and you feel like the NHS has let you down it can be hard. You have a right to complain and the NHS needs your feedback in order to improve their service. Call seAp for free information about getting your voice heard and other organisations that can help."
+                , CopyText "If there are parts of your complaint you cannot do for yourself, you can ask for one of the seAp team to be your advocate. They will listen to you, support you to speak for yourself, and help you to make choices. They can also write letters for you, help you in complaint meetings, and talk to other people for you if necessary."
+                ]
 
         HomeP2 ->
             CopyText "The seAp service is completely confidential, free and independent of the NHS. It can only be used to complain about NHS services, we can’t help with complaints about private health care or social care provided by the local council."
 
         -- Privacy Page
         PrivacyTitleH2 ->
-            CopyText "✨"
+            CopyText "Privacy Policy and Cookies"
 
         PrivacyIntroP ->
-            CopyText "✨ "
+            CopyWithLink
+                { textBefore = "This policy relates to"
+                , linkText = "www.nhscomplaintsmatter.org.uk"
+                , destination = "www.nhscomplaintsmatter.org.uk"
+                , textAfter = "(“the Site”) which is owned by The Advocacy People (“the Owners”) trading as seAp 2020."
+                }
 
         PrivacyCompanyAddress ->
             CopyList
-                [ CopyText "✨"
-                , CopyText "✨"
-                , CopyText "✨"
-                , CopyText "✨"
+                [ CopyText ""
+                , CopyText ""
+                , CopyText ""
+                , CopyText ""
                 ]
 
         PrivacySectionOneH3 ->
-            CopyText "✨"
+            CopyText "What information is collected?"
 
         PrivacySectionOneP ->
-            CopyText "✨"
+            CopySection
+                [ CopyText
+                    """In connection with certain services the Owners offer through the Site, we may ask you to submit
+                information such as your name and a way to contact you, either an email or telephone number. You are under
+                no obligation to provide such information. However, should you not provide such information we may not be
+                able to offer you certain services."""
+                , CopyWithLink
+                    { textBefore = "You can find out more about what information is collected and how it is stored and used by viewing the Advocacy People’s privacy policy here -"
+                    , linkText = "www.seap.org.uk/privacy-policy.html"
+                    , destination = "https://www.seap.org.uk/privacy-policy.html"
+                    , textAfter = ""
+                    }
+                , CopyText
+                    "For the Site we collect the following information from people who use this website:"
+                ]
 
         PrivacySectionOneList ->
             CopyList
-                [ CopyText "✨"
-                , CopyText "✨"
-                , CopyText "✨"
+                [ CopyText "Analytics and tracking data about people’s site usage"
                 ]
 
         PrivacySectionTwoH3 ->
-            CopyText "✨"
+            CopyText "How is the data we collect used and why do we collect it?"
 
         PrivacySectionTwoP ->
-            CopyText "✨"
+            CopyText "We use the information you provide on the site:"
 
         PrivacySectionTwoList ->
             CopyList
-                [ CopyText "✨"
-                , CopyText "✨ "
-                , CopyText "✨"
-                , CopyText "✨"
+                [ CopyText "For analytics purposes to understand how people use our website and improve the efficiency of the service provided"
                 ]
 
         PrivacySectionThreeH3 ->
-            CopyText ""
+            CopyText "Use of Cookies"
 
         PrivacySectionThreeP1 ->
             CopyText
-                "✨"
+                """Cookies are text files placed on your computer to collect standard Internet log information
+                and visitor behaviour information. Most web browsers automatically accept cookies, but if you
+                prefer, you can change your browser to prevent that. For more data on Cookies visit
+                aboutcookies.org.uk. In addition to detailing extensive information on cookies that site also
+                provides explanations on how to disable cookies on your computer."""
 
         PrivacySectionThreeP2 ->
-            CopyText "✨"
+            CopyText "The site uses cookies to:"
 
         PrivacySectionThreeList ->
             CopyList
-                [ CopyText "✨"
-                , CopyText "✨"
-                , CopyText "✨"
+                [ CopyText "Monitor the number of visitors to our website"
+                , CopyText "Monitor how users use our website, i.e. which pages they have accessed"
+                , CopyText "To help improve our website"
                 ]
 
         PrivacySectionFourH3 ->
-            CopyText "✨"
+            CopyText "Your data and third parties"
 
         PrivacySectionFourP1 ->
-            CopyText ""
+            CopyText "There are some third party service providers that the Owners use for the Site, which are as follows:"
 
         PrivacySectionFourList ->
             CopyList
-                [ CopyText "✨"
-                , CopyWithLink
-                    { textBefore = "✨"
-                    , linkText = "✨"
-                    , destination = "#"
-                    , textAfter = "."
+                [ CopyWithLink
+                    { textBefore = ""
+                    , linkText = "Google Analytics"
+                    , destination = "https://analytics.google.com/"
+                    , textAfter = ""
                     }
                 , CopyWithLink
-                    { textBefore = "✨"
-                    , linkText = "✨"
-                    , destination = "✨"
-                    , textAfter = "."
-                    }
-                , CopyWithLink
-                    { textBefore = "✨"
-                    , linkText = "✨"
-                    , destination = "✨"
-                    , textAfter = "."
+                    { textBefore = ""
+                    , linkText = "Neontribe ltd."
+                    , destination = "https://www.neontribe.co.uk/"
+                    , textAfter = ""
                     }
                 ]
 
         PrivacySectionFourP2 ->
-            CopyText ""
+            CopySection
+                [ CopyText
+                    """Google Analytics: We use Google Analytics, which is a Google service that uses cookies and other data
+                       collection technologies to collect information about your use of the website and services in order to
+                       report website trends."""
+                , CopyText
+                    """Neontribe: The website services provider will be monitoring the success of the site via Google Analytics
+                       and will have access to the aggregated, anonymised Analytics data. They will also be monitoring the number
+                       of people who go on to use the service but do not process any information collected in the form nor know
+                       anything about people who choose to use the services. Neontribe are monitoring the site as part of a project
+                       called Contemplating Action, which is seeking to find out whether visual stories can help people overcome
+                       their fears and barriers to getting support from charities that could help."""
+                , CopyWithLink
+                    { textBefore = "You can find out more about the project here -"
+                    , linkText = "contemplatingaction.org.uk"
+                    , destination = "https://www.contemplatingaction.org.uk/"
+                    , textAfter = ""
+                    }
+                ]
 
         PrivacySectionFiveH3 ->
-            CopyText "✨"
+            CopyText "Your rights"
 
         PrivacySectionFiveP ->
-            CopyWithLink
-                { textBefore = "✨"
-                , linkText = "✨"
-                , destination = "#"
-                , textAfter = ". ✨"
-                }
+            CopySection
+                [ CopyWithLink
+                    { textBefore = "We guarantee to meet your rights in compliance with the"
+                    , linkText = "Data Protection Act"
+                    , destination = "https://www.gov.uk/government/collections/data-protection-act-2018"
+                    , textAfter = "of 2018."
+                    }
+                , CopyWithLink
+                    { textBefore = "Find out about those rights from the"
+                    , linkText = "ICO GDPR"
+                    , destination = "https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/"
+                    , textAfter = "individual rights guide."
+                    }
+                , CopyText "For further information or specific requests relating to this statement please contact:"
+                ]
 
         PrivacySectionFiveList ->
-            CopyText ""
+            CopyList
+                [ CopyText "Data Support Officer, seAp PO Box 375, Hastings, TN34 9HU"
+                , CopyText "Tel: 0330 440 9000"
+                , CopyText "E-mail: info@seap.org.uk"
+                ]
 
         PrivacySectionSixH3 ->
-            CopyText "✨"
+            CopyText ""
 
         PrivacySectionSixP1 ->
             CopyText
-                "✨ "
+                ""
 
         PrivacySectionSixP2 ->
-            CopyText "✨"
+            CopyText ""
 
         PrivacySectionSixP3 ->
             CopyText ""
@@ -250,18 +292,13 @@ brandCopy key =
             CopyText ""
 
         PrivacySectionSixList ->
-            CopyList
-                [ CopyText "✨"
-                , CopyText "✨"
-                , CopyText "✨"
-                , CopyText "✨"
-                ]
+            CopyText ""
 
         PrivacySectionSevenH3 ->
-            CopyText "✨"
+            CopyText ""
 
         PrivacySectionSevenP ->
-            CopyText "✨"
+            CopyText ""
 
         PrivacySectionSevenList ->
             CopyText ""
@@ -385,16 +422,16 @@ brandCopy key =
 
         InfoTwoContent ->
             CopySection
-            [ CopyText "We don’t promise to get you everything you want. We will always be clear with you about this. Complaining is not the same as taking legal action and you won’t get a financial reward. But we can work towards goals that could make a big difference to how you feel. Think about if you might like:"
-            , CopyList
-                [ CopyText "an apology so you know that other people accept that sometimes things do go wrong"
+                [ CopyText "We don’t promise to get you everything you want. We will always be clear with you about this. Complaining is not the same as taking legal action and you won’t get a financial reward. But we can work towards goals that could make a big difference to how you feel. Think about if you might like:"
+                , CopyList
+                    [ CopyText "an apology so you know that other people accept that sometimes things do go wrong"
                     , CopyText "an explanation so that you understand why something happened"
                     , CopyText "a change to a service so that something never happens again"
                     , CopyText "action to put things right so that you and others have better treatment in the future"
                     , CopyText "answers to questions so that you understand why a decision was made"
                     ]
-            , CopyText "Our team will help you work out what you can expect."
-            ]
+                , CopyText "Our team will help you work out what you can expect."
+                ]
 
         InfoThreeName ->
             CopyText "Will I be harming the NHS?"
@@ -720,7 +757,6 @@ brandCopy key =
 
         StoryFour4Message ->
             CopyText "A meeting is a good way to move on. I can keep using my little village surgery."
-
 
 
 relatedInfo : Int -> List Int
