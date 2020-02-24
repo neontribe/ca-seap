@@ -27,10 +27,6 @@ require('./manifest.json');
 var Elm = require('./Main.elm');
 var app = Elm.Elm.Main.init({});
 
-app.ports.updateAnalyticsPage.subscribe(function (page) {
-    gtag('config', 'UA-157133795-1', { 'page_path': page });
-});
-
 // Todo make sure multiple events are recording with same category/ action.
 // Maybe the label can't be the only unique thing.
 app.ports.updateAnalyticsEvent.subscribe(function (gaEvent) {
