@@ -114,7 +114,7 @@ brandCopy key =
             CopyText "When you are ill you need to be treated well. Find out how we can help you speak up when things go wrong."
 
         HomeBannerImageAlt ->
-            CopyText ""
+            CopyText "Illustration of a woman talking about her complaint and being reassured by a helpline worker."
 
         HomeTalkToSomeoneH2 ->
             CopyText "Your rights, your voice, your choice"
@@ -126,7 +126,7 @@ brandCopy key =
                 ]
 
         HomeP2 ->
-            CopyText "The seAp service is completely confidential, free and independent of the NHS. It can only be used to complain about NHS services, we can’t help with complaints about private health care or social care provided by the local council."
+            CopyText "The seAp service is completely confidential, free and independent of the NHS. It can only be used to complain about NHS services. We can’t help with complaints about private health care or social care provided by the local council."
 
         -- Privacy Page
         PrivacyTitleH2 ->
@@ -521,7 +521,7 @@ brandCopy key =
             CopyText
                 """When my husband was first diagnosed with cancer, the treatment was amazing, he was in
                 chemotherapy within 36 hours. But later, an A&E visit went very badly when protocols and
-                procedures were ignored. We put in a complaint to the Health Care Trust, and one sentence
+                procedures were ignored. We put in a complaint to the Healthcare Trust, and one sentence
                 in their reply made us so angry."""
 
         StoryOne1ImageAlt ->
@@ -624,7 +624,7 @@ brandCopy key =
             CopyText
                 """I had to phone up for forms to fill in. And I was pretty stressed
                 about getting them right - so I was glad Alisha knew enough to help me.
-                It took ages to hear anything back, but when I did they told me they
+                It took a while to hear anything back, but when I did they told me they
                 were adding new training on diversity and talking about health with
                 young people. That made me feel good."""
 
