@@ -4,7 +4,6 @@
     "alias": ["nhscomplaintsmatter.org.uk"],
     "builds": [
         {
-            "//": "License will never actually be served, we just need now.sh to not try and run yarn build, as yarn build will fail.",
             "src": "LICENSE",
             "use": "@now/static"
         }
