@@ -1,0 +1,21 @@
+{
+    "name": "advocacy-people-contemplating-action",
+    "scope": "ca-advocacy-people",
+    "alias": ["nhscomplaintsmatter.org.uk"],
+    "builds": [
+        {
+            "//": "License will never actually be served, we just need now.sh to not try and run yarn build, as yarn build will fail.",
+            "src": "LICENSE",
+            "use": "@now/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "status": 301,
+            "headers": {
+                "Location": "https://www.nhscomplaintsmatter.org.uk/$1"
+            }
+        }
+    ]
+}

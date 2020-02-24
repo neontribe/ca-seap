@@ -1,0 +1,22 @@
+{
+    "name": "advocacy-people-contemplating-action",
+    "scope": "ca-advocacy-people",
+    "alias": ["www.nhscomplaintsmatter.org.uk"],
+    "builds": [
+        {
+            "src": "dist/**/*",
+            "use": "@now/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/dist/.*",
+            "status": 404,
+            "dest": "nothing"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/dist/$1"
+        }
+    ]
+}
