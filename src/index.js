@@ -27,10 +27,24 @@ require('./manifest.json');
 var Elm = require('./Main.elm');
 var app = Elm.Elm.Main.init({});
 
+dataLayer = window.dataLayer || [];
+
+app.ports.updateAnalyticsPage.subscribe(function(x) {
+    dataLayer.push({
+        event: 'pageView',
+        page: x,
+    });
+});
+
 // Todo make sure multiple events are recording with same category/ action.
 // Maybe the label can't be the only unique thing.
 app.ports.updateAnalyticsEvent.subscribe(function (gaEvent) {
-    gtag('event', gaEvent.action, { 'event_category' : gaEvent.category, 'event_label' : gaEvent.label });
+    if (gaEvent.action === 'email' && gaEvent.category === 'call-to-action') {
+        dataLayer.push({
+            event: 'clickEmailLink',
+            category: gaEvent.category,
+        });
+    }
 });
 
 // Options for the observer (which mutations to observe)
