@@ -1,0 +1,20 @@
+{
+    "name": "advocacy-people-contemplating-action",
+    "scope": "ca-advocacy-people",
+    "alias": ["nhscomplaintsmatter.org.uk"],
+    "builds": [
+        {
+            "src": "LICENSE",
+            "use": "@now/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "status": 301,
+            "headers": {
+                "Location": "https://www.nhscomplaintsmatter.org.uk/$1"
+            }
+        }
+    ]
+}
