@@ -82,9 +82,9 @@ brandCopy key =
                 { action = DesktopInteractive
                 , category = "email"
                 , icon = "email"
-                , href = "mailto: info@theadvocacypeople.org.uk"
-                , displayHref = " info@theadvocacypeople.org.uk"
-                , promptLong = "email  info@theadvocacypeople.org.uk"
+                , href = "mailto:info@theadvocacypeople.org.uk"
+                , displayHref = "info@theadvocacypeople.org.uk"
+                , promptLong = "email info@theadvocacypeople.org.uk"
                 , promptShort = "email"
                 }
 
