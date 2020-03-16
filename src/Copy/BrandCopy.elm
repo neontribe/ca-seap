@@ -82,9 +82,9 @@ brandCopy key =
                 { action = DesktopInteractive
                 , category = "email"
                 , icon = "email"
-                , href = "mailto:info@seap.org.uk"
-                , displayHref = "info@seap.org.uk"
-                , promptLong = "email info@seap.org.uk"
+                , href = "mailto: info@theadvocacypeople.org.uk"
+                , displayHref = " info@theadvocacypeople.org.uk"
+                , promptLong = "email  info@theadvocacypeople.org.uk"
                 , promptShort = "email"
                 }
 
@@ -121,12 +121,12 @@ brandCopy key =
 
         HomeP1 ->
             CopySection
-                [ CopyText "When something goes wrong and you feel like the NHS has let you down it can be hard. You have a right to complain and the NHS needs your feedback in order to improve their service. Call seAp for free information about getting your voice heard and other organisations that can help."
-                , CopyText "If there are parts of your complaint you cannot do for yourself, you can ask for one of the seAp team to be your advocate. They will listen to you, support you to speak for yourself, and help you to make choices. They can also write letters for you, help you in complaint meetings, and talk to other people for you if necessary."
+                [ CopyText "When something goes wrong and you feel like the NHS has let you down it can be hard. You have a right to complain and the NHS needs your feedback in order to improve their service. Call The Advocacy People for free information about getting your voice heard and other organisations that can help."
+                , CopyText "If there are parts of your complaint you cannot do for yourself, you can ask for one of the The Advocacy People team to be your advocate. They will listen to you, support you to speak for yourself, and help you to make choices. They can also write letters for you, help you in complaint meetings, and talk to other people for you if necessary."
                 ]
 
         HomeP2 ->
-            CopyText "The seAp service is completely confidential, free and independent of the NHS. It can only be used to complain about NHS services. We can’t help with complaints about private health care or social care provided by the local council."
+            CopyText "The The Advocacy People service is completely confidential, free and independent of the NHS. It can only be used to complain about NHS services. We can’t help with complaints about private health care or social care provided by the local council."
 
         -- Privacy Page
         PrivacyTitleH2 ->
@@ -137,7 +137,7 @@ brandCopy key =
                 { textBefore = "This policy relates to"
                 , linkText = "www.nhscomplaintsmatter.org.uk"
                 , destination = "www.nhscomplaintsmatter.org.uk"
-                , textAfter = "(“the Site”) which is owned by The Advocacy People (“the Owners”) trading as seAp 2020."
+                , textAfter = "(“the Site”) which is owned by The Advocacy People (“the Owners”)."
                 }
 
         PrivacyCompanyAddress ->
@@ -160,8 +160,8 @@ brandCopy key =
                 able to offer you certain services."""
                 , CopyWithLink
                     { textBefore = "You can find out more about what information is collected and how it is stored and used by viewing the Advocacy People’s privacy policy here -"
-                    , linkText = "www.seap.org.uk/privacy-policy.html"
-                    , destination = "https://www.seap.org.uk/privacy-policy.html"
+                    , linkText = "https://www.theadvocacypeople.org.uk/privacy"
+                    , destination = "https://www.theadvocacypeople.org.uk/privacy"
                     , textAfter = ""
                     }
                 , CopyText
@@ -270,9 +270,9 @@ brandCopy key =
 
         PrivacySectionFiveList ->
             CopyList
-                [ CopyText "Data Support Officer, seAp PO Box 375, Hastings, TN34 9HU"
+                [ CopyText "Data Support Officer, The Advocacy People PO Box 375, Hastings, TN34 9HU"
                 , CopyText "Tel: 0330 440 9000"
-                , CopyText "E-mail: info@seap.org.uk"
+                , CopyText "E-mail: info@theadvocacypeople.org.uk"
                 ]
 
         PrivacySectionSixH3 ->
@@ -347,7 +347,7 @@ brandCopy key =
             CopyText "The Haven Wolverhampton logo"
 
         SupportersP5 ->
-            CopyText "This web app was built by Neontribe and seAp, together with people who have used seAp’s health care complaints service."
+            CopyText "This web app was built by Neontribe and The Advocacy People, together with people who have used The Advocacy People's health care complaints service."
 
         FooterSupportersText ->
             CopyText "Find out about our"
@@ -367,8 +367,8 @@ brandCopy key =
         FooterCopyrightLink ->
             CopyWithLink
                 { textBefore = "© 2019 - "
-                , linkText = "seAp"
-                , destination = "https://www.seap.org.uk/"
+                , linkText = "The Advocacy People"
+                , destination = "https://www.theadvocacypeople.org.uk/"
                 , textAfter = ""
                 }
 
