@@ -42,7 +42,7 @@ Currently configured with GITHUB_TOKEN value.
 ### To Production
 The production is hosted using [now.sh](https://now.sh).
 The process is manual and requires deploying two now apps. You can do that by installing now and deploying the separate now.json files.
-To speed this up you can make sure now is installed globally before running npx `yarn global add now`.
+To speed this up you can make sure `now` is installed globally before running npx `yarn global add now`.
 This will deploy what is currently in your dist folder, so make sure you have a build in `dist/` that you want to deploy.
 
 Quickstart:
@@ -54,4 +54,3 @@ npx now --prod -A now.redirect.json
 ```
 
 This will require access to the Hospice Hope now account: https://zeit.co/ca-advocacy-people.
-
