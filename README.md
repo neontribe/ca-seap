@@ -53,4 +53,4 @@ npx now --prod
 npx now --prod -A now.redirect.json
 ```
 
-This will require access to the Aadvocacy People now account: [https://zeit.co/ca-advocacy-people](https://zeit.co/ca-advocacy-people).
+This will require access to the Advocacy People now account: [https://zeit.co/ca-advocacy-people](https://zeit.co/ca-advocacy-people).
