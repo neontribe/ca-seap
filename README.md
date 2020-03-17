@@ -2,7 +2,7 @@
 
 ## Site URLs
 - [Staging](https://neontribe.github.io/ca-seap)
-- [Production TBC](#)
+- [Production](https://www.nhscomplaintsmatter.org.uk/)
 
 ### Elm with Webpack and Yarn
 - `elm.json` for elm packages
@@ -39,5 +39,18 @@ Encrypted vars can be added to `.travis.yml` using the travis cli tools as decri
 Currently configured with GITHUB_TOKEN value.
 
 
-### To Production (TBC)
+### To Production
+The production is hosted using [now.sh](https://now.sh).
+The process is manual and requires deploying two now apps. You can do that by installing `now` and deploying the separate `now.json` files.
+To speed this up you can make sure `now` is installed globally before running npx `yarn global add now`.
+This will deploy what is currently in your dist folder, so make sure you have a build in `dist/` that you want to deploy.
 
+Quickstart:
+```bash
+./build.sh
+yarn build
+npx now --prod
+npx now --prod -A now.redirect.json
+```
+
+This will require access to the Advocacy People now account: [https://zeit.co/ca-advocacy-people](https://zeit.co/ca-advocacy-people).
