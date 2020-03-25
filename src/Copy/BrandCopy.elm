@@ -126,7 +126,7 @@ brandCopy key =
                 ]
 
         HomeP2 ->
-            CopyText "The The Advocacy People service is completely confidential, free and independent of the NHS. It can only be used to complain about NHS services. We can’t help with complaints about private health care or social care provided by the local council."
+            CopyText "The Advocacy People service is completely confidential, free and independent of the NHS. It can only be used to complain about NHS services. We can’t help with complaints about private health care or social care provided by the local council."
 
         -- Privacy Page
         PrivacyTitleH2 ->
