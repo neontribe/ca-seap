@@ -35,7 +35,7 @@ import Copy.Keys exposing (CallToActionType(..), Copy(..), Key(..))
            , textAfter = "to Google's home page."
            }
 
-   To add multiple bits of copy to a single section use CopySection. The items in the the section will appear with space between them.
+   To add multiple bits of copy to a single section use CopySection. The items in the section will appear with space between them.
 
        CopySection
            [ CopyText
@@ -122,11 +122,11 @@ brandCopy key =
         HomeP1 ->
             CopySection
                 [ CopyText "When something goes wrong and you feel like the NHS has let you down it can be hard. You have a right to complain and the NHS needs your feedback in order to improve their service. Call The Advocacy People for free information about getting your voice heard and other organisations that can help."
-                , CopyText "If there are parts of your complaint you cannot do for yourself, you can ask for one of the The Advocacy People team to be your advocate. They will listen to you, support you to speak for yourself, and help you to make choices. They can also write letters for you, help you in complaint meetings, and talk to other people for you if necessary."
+                , CopyText "If there are parts of your complaint you cannot do for yourself, you can ask for one of The Advocacy People team to be your advocate. They will listen to you, support you to speak for yourself, and help you to make choices. They can also write letters for you, help you in complaint meetings, and talk to other people for you if necessary."
                 ]
 
         HomeP2 ->
-            CopyText "The The Advocacy People service is completely confidential, free and independent of the NHS. It can only be used to complain about NHS services. We can’t help with complaints about private health care or social care provided by the local council."
+            CopyText "The Advocacy People's service is completely confidential, free and independent of the NHS. It can only be used to complain about NHS services. We can’t help with complaints about private health care or social care provided by the local council."
 
         -- Privacy Page
         PrivacyTitleH2 ->
