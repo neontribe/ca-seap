@@ -121,8 +121,8 @@ brandCopy key =
 
         HomeP1 ->
             CopySection
-                [ CopyText "When something goes wrong and you feel like the NHS has let you down it can be hard. You have a right to complain and the NHS needs your feedback in order to improve their service. Call The Advocacy People for free information about getting your voice heard and other organisations that can help."
-                , CopyText "If there are parts of your complaint you cannot do for yourself, you can ask for one of The Advocacy People team to be your advocate. They will listen to you, support you to speak for yourself, and help you to make choices. They can also write letters for you, help you in complaint meetings, and talk to other people for you if necessary."
+                [ CopyText "When something goes wrong and you feel like the NHS has let you down, it can be hard. You have a right to complain and the NHS needs your feedback in order to improve their service. Call The Advocacy People for free information about getting your voice heard and other organisations that can help."
+                , CopyText "If there are parts of your complaint you cannot do for yourself, you can ask for one of The Advocacy People's team to be your advocate. They will listen to you, support you to speak for yourself, and help you to make choices. They can also write letters for you, help you in complaint meetings, and talk to other people for you if necessary."
                 ]
 
         HomeP2 ->
@@ -443,7 +443,7 @@ brandCopy key =
             CopyText "hospital"
 
         InfoThreeContent ->
-            CopyText "No. Not at all. It’s easy to feel that you don’t want to add to the NHS’s problems and feel bad for complaining. But the NHS wants people to report problems. They have a saying ‘complaints are a gift to the NHS’ because they show how it can get better. Even though the complaints process can seem hard, it’s worth it to make a difference. Our team can talk to you about how your complaint could help improve services."
+            CopyText "No. Not at all. It’s easy to feel that you don’t want to add to the NHS’s problems and feel bad for complaining. But the NHS wants people to report problems. They have a saying: ‘complaints are a gift to the NHS’, because they show how it can get better. Even though the complaints process can seem hard, it’s worth it to make a difference. Our team can talk to you about how your complaint could help improve services."
 
         InfoFourName ->
             CopyText "Am I just making a fuss?"
@@ -467,7 +467,7 @@ brandCopy key =
             CopyText "speech"
 
         InfoFiveContent ->
-            CopyText "Deciding to take a complaint forward can be scary, especially if you are still receiving treatment. Lots of people worry that complaining will make things worse. The NHS is not allowed to act like that. There are standards that they must follow when they deal with complaints. So if you decide to make a complaint the NHS should still treat you fairly, politely and with respect. Your care and treatment should never be affected as a result. Our team can help you remind the NHS of these responsibilities."
+            CopyText "Deciding to take a complaint forward can be scary, especially if you are still receiving treatment. Lots of people worry that complaining will make things worse. The NHS is not allowed to act like that. There are standards that they must follow when they deal with complaints. So if you decide to make a complaint, the NHS should still treat you fairly, politely and with respect. Your care and treatment should never be affected as a result. Our team can help you remind the NHS of these responsibilities."
 
         InfoSixName ->
             CopyText "Is complaining a lot of work?"
